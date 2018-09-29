@@ -30,11 +30,6 @@
         "path": "/experience/"
     },
     {
-        "componentChunkName": "component---src-pages-page-2-js",
-        "jsonName": "page-2-fbc",
-        "path": "/page-2/"
-    },
-    {
         "componentChunkName": "component---src-pages-work-js",
         "jsonName": "work-fa6",
         "path": "/work/"

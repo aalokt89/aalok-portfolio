@@ -7,7 +7,6 @@ exports.components = {
   "component---src-pages-contact-js": () => import("/Users/aaloktrivedi/aalok-portfolio/src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
   "component---src-pages-experience-js": () => import("/Users/aaloktrivedi/aalok-portfolio/src/pages/experience.js" /* webpackChunkName: "component---src-pages-experience-js" */),
   "component---src-pages-index-js": () => import("/Users/aaloktrivedi/aalok-portfolio/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-page-2-js": () => import("/Users/aaloktrivedi/aalok-portfolio/src/pages/page-2.js" /* webpackChunkName: "component---src-pages-page-2-js" */),
   "component---src-pages-work-js": () => import("/Users/aaloktrivedi/aalok-portfolio/src/pages/work.js" /* webpackChunkName: "component---src-pages-work-js" */)
 }
 

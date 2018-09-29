@@ -8,7 +8,6 @@ exports.components = {
   "component---src-pages-contact-js": preferDefault(require("/Users/aaloktrivedi/aalok-portfolio/src/pages/contact.js")),
   "component---src-pages-experience-js": preferDefault(require("/Users/aaloktrivedi/aalok-portfolio/src/pages/experience.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/aaloktrivedi/aalok-portfolio/src/pages/index.js")),
-  "component---src-pages-page-2-js": preferDefault(require("/Users/aaloktrivedi/aalok-portfolio/src/pages/page-2.js")),
   "component---src-pages-work-js": preferDefault(require("/Users/aaloktrivedi/aalok-portfolio/src/pages/work.js"))
 }
 
