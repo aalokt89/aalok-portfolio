@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+}
+
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: spacing(base);
+}
+section {
+  display: grid;
+}
+
+.container {
+  max-width: 110rem;
+  margin: auto;
+}

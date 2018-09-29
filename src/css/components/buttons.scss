@@ -1,0 +1,33 @@
+$button-border: 2px;
+
+@mixin btn($background, $color) {
+  border: $button-border solid $background;
+  color: $color;
+  font-size: 1.6rem;
+  background: $background;
+  border-radius: 100px;
+  transition: 200ms;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $background;
+    background: $color;
+    border-color: $background;
+  }
+  &.-hollow {
+    background: none;
+    color: $background;
+    border: $button-border solid $background;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color;
+      background: $background;
+    }
+  }
+}
+
+.btn {
+  padding: 0.4rem 3.2rem;
+  @include btn($secondary-blue, white);
+}

@@ -1,0 +1,113 @@
+//typography
+
+//headings
+$header-font-stack: "Lora", "Montserrat", "-apple-system", Roboto, Helvetica,
+  sans-serif;
+$header-font-family: $header-font-stack;
+$header-color: $primary-blue;
+$header-font-weight: 700;
+$header-styles: (
+  mobile: (
+    "h1": (
+      "font-size": 2.4rem
+    ),
+    "h2": (
+      "font-size": 2rem
+    ),
+    "h3": (
+      "font-size": 1.9rem
+    ),
+    "h4": (
+      "font-size": 1.8rem
+    ),
+    "h5": (
+      "font-size": 1.7rem
+    )
+  ),
+  desktop: (
+    "h1": (
+      "font-size": 3.4rem,
+      "line-height": 1.4,
+      "margin-bottom": spacing(base)
+    ),
+    "h2": (
+      "font-size": 2.4rem,
+      "line-height": 1.4
+    ),
+    "h3": (
+      "font-size": 2rem,
+      "line-height": 1.2
+    ),
+    "h4": (
+      "font-size": 1.8rem,
+      "line-height": 1.4
+    ),
+    "h5": (
+      "font-size": 1.6rem,
+      "line-height": 1.4
+    )
+  )
+);
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $header-font-family;
+  color: $header-color;
+  font-weight: $header-font-weight;
+}
+
+$headings: h5 h4 h3 h2 h1;
+$base-size: 1.6rem;
+$title-size: 4.2rem;
+
+@each $heading in $headings {
+  $heading-size-desktop: map-deep-get(
+    $header-styles,
+    desktop,
+    $heading,
+    font-size
+  );
+  $heading-line-height-desktop: map-deep-get(
+    $header-styles,
+    desktop,
+    $heading,
+    line-height
+  );
+
+  $heading-margin-bottom-desktop: map-deep-get(
+    $header-styles,
+    desktop,
+    $heading,
+    margin-bottom
+  );
+  #{$heading} {
+    font-size: $heading-size-desktop;
+    line-height: $heading-line-height-desktop;
+    margin-bottom: $heading-margin-bottom-desktop;
+  }
+}
+
+//body
+$body-font-stack: "Montserrat", "-apple-system", Roboto, Helvetica, sans-serif;
+$body-font-family: $body-font-stack;
+$body-color: $text;
+$body-font-weight: 400;
+$body-font-size: 1.6rem;
+$body-line-height: 2.8rem;
+
+body {
+  font-family: $body-font-family;
+  color: $body-color;
+  line-height: $body-line-height;
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+}
+
+//links
+a {
+  color: $secondary-blue;
+  text-decoration: none;
+}

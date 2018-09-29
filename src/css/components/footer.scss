@@ -1,0 +1,14 @@
+footer {
+  background: darken($primary-blue, 10);
+  height: 8.8rem;
+  color: lighten($primary-blue, 40);
+  margin-left: $main-nav-width-desktop;
+
+  a {
+    display: inline-block;
+  }
+}
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+}

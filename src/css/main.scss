@@ -1,0 +1,28 @@
+html {
+  font-size: 62.5%;
+}
+
+@import "./base/colors.scss";
+@import "./helpers/functions.scss";
+@import "./helpers/mixins.scss";
+@import "./base/spacing.scss";
+@import "./base/typography.scss";
+@import "./layout/grid.scss";
+
+
+@import "./components/buttons.scss";
+@import "./components/nav-panel.scss";
+@import "./components/home-hero.scss";
+@import "./components/home-work-showcase.scss";
+@import "./components/footer.scss";
+
+
+
+.content {
+  margin-left: $main-nav-width-desktop;
+
+  @media all and (max-width: 839px) {
+    margin-left: 0;
+    padding-bottom: 5rem;
+  }
+}
