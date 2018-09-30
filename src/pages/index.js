@@ -3,8 +3,8 @@ import Layout from '../components/layout';
 import HomeHero from '../components/HomeHero';
 import WorkShowcase from '../components/WorkShowcase';
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = ({ location }) => (
+  <Layout location={location}>
     <HomeHero />
     <WorkShowcase sectionTitle="My Work" />
   </Layout>

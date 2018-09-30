@@ -364,81 +364,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-sass": {
-      "resolve": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-plugin-sass",
-      "id": "Plugin gatsby-plugin-sass",
-      "name": "gatsby-plugin-sass",
-      "version": "2.0.1",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateWebpackConfig"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-plugin-sass",
-      "packageJson": {
-        "name": "gatsby-plugin-sass",
-        "description": "Gatsby plugin to handle scss/sass files",
-        "version": "2.0.1",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "sass",
-          "scss"
-        ],
-        "author": {
-          "name": "Daniel Farrell",
-          "email": "daniel@mobelux.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "sass-loader",
-            "version": "^7.0.1"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          },
-          {
-            "name": "node-sass",
-            "version": "^4.9.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "bba274dc448d78d52c34b6fedfb63430",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin gatsby-plugin-offline": {
       "resolve": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-plugin-offline",
       "id": "Plugin gatsby-plugin-offline",
@@ -524,11 +449,197 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bba274dc448d78d52c34b6fedfb63430",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "/Users/aaloktrivedi/aalok-portfolio/src/pages/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b0a41c566a5ea997facf4c229f058d2c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/aaloktrivedi/aalok-portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "3b87e38f4515bb7ac6006ffe9a47f060",
+      "version": "c406b6cac794e59ec6ef074dcca543ba",
       "pluginOptions": {
         "plugins": []
       },
@@ -567,6 +678,10 @@
             "version": "^2.0.1"
           },
           {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.1"
+          },
+          {
             "name": "node-sass",
             "version": "^4.9.3"
           },
@@ -599,7 +714,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "db36d1f32bd7852afbd9b2ed50a54ce2",
+        "contentDigest": "89ebd86c6f35e38f0676ea88ab5ff074",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -707,15 +822,284 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-29T15:49:36.295Z",
+      "buildTime": "2018-09-30T00:51:42.732Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "39d2df94786f13703f21949aeffd30a2",
+        "contentDigest": "6472ce7d6519ad767c00b4806ab8ca67",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
+    },
+    "389a4f2b-aba0-5b79-9163-8d166e23c8c9": {
+      "id": "389a4f2b-aba0-5b79-9163-8d166e23c8c9",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aac482ec0e5ca567a485b948d4f2e34d",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/",
+      "relativePath": "",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-09-29T17:06:48.894Z",
+      "accessTime": "2018-09-30T00:51:46.787Z",
+      "changeTime": "2018-09-29T17:06:48.894Z",
+      "birthTime": "2018-09-27T20:50:32.409Z",
+      "root": "/",
+      "dir": "/Users/aaloktrivedi/aalok-portfolio/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8645546826,
+      "blocks": 0,
+      "atimeMs": 1538268706787.0562,
+      "mtimeMs": 1538240808893.813,
+      "ctimeMs": 1538240808893.813,
+      "birthtimeMs": 1538081432409.3232,
+      "atime": "2018-09-30T00:51:46.787Z",
+      "mtime": "2018-09-29T17:06:48.894Z",
+      "ctime": "2018-09-29T17:06:48.894Z",
+      "birthtime": "2018-09-27T20:50:32.409Z"
+    },
+    "fa69eb96-6550-5f92-a166-369bdbc1c5ab": {
+      "id": "fa69eb96-6550-5f92-a166-369bdbc1c5ab",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6c9ae5e9309608997059e912d6376e20",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 246,
+      "prettySize": "246 B",
+      "modifiedTime": "2018-09-27T20:50:32.409Z",
+      "accessTime": "2018-09-29T15:47:03.467Z",
+      "changeTime": "2018-09-29T15:44:33.082Z",
+      "birthTime": "2018-09-27T20:50:32.409Z",
+      "root": "/",
+      "dir": "/Users/aaloktrivedi/aalok-portfolio/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8645546828,
+      "blocks": 8,
+      "atimeMs": 1538236023467.3987,
+      "mtimeMs": 1538081432409.494,
+      "ctimeMs": 1538235873081.6328,
+      "birthtimeMs": 1538081432409.379,
+      "atime": "2018-09-29T15:47:03.467Z",
+      "mtime": "2018-09-27T20:50:32.409Z",
+      "ctime": "2018-09-29T15:44:33.082Z",
+      "birthtime": "2018-09-27T20:50:32.409Z"
+    },
+    "680f02ce-9629-596b-93fd-395cfc00d46d": {
+      "id": "680f02ce-9629-596b-93fd-395cfc00d46d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ebd5469c1bbbf1a21b9a1a18555a7e9e",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/contact.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/contact.js",
+      "relativePath": "contact.js",
+      "extension": "js",
+      "size": 329,
+      "prettySize": "329 B",
+      "modifiedTime": "2018-09-30T02:12:36.043Z",
+      "accessTime": "2018-09-30T02:12:36.041Z",
+      "changeTime": "2018-09-30T02:12:36.043Z",
+      "birthTime": "2018-09-28T03:14:56.056Z",
+      "root": "/",
+      "dir": "/Users/aaloktrivedi/aalok-portfolio/src/pages",
+      "base": "contact.js",
+      "ext": ".js",
+      "name": "contact",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8645546831,
+      "blocks": 8,
+      "atimeMs": 1538273556041.4766,
+      "mtimeMs": 1538273556043.4387,
+      "ctimeMs": 1538273556043.4387,
+      "birthtimeMs": 1538104496056.3044,
+      "atime": "2018-09-30T02:12:36.041Z",
+      "mtime": "2018-09-30T02:12:36.043Z",
+      "ctime": "2018-09-30T02:12:36.043Z",
+      "birthtime": "2018-09-28T03:14:56.056Z"
+    },
+    "008821bb-326a-5cf9-ac20-017957f52be8": {
+      "id": "008821bb-326a-5cf9-ac20-017957f52be8",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "77f06ccc9b6d6fb40dcf3f52897ab39b",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/experience.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/experience.js",
+      "relativePath": "experience.js",
+      "extension": "js",
+      "size": 343,
+      "prettySize": "343 B",
+      "modifiedTime": "2018-09-30T02:12:44.659Z",
+      "accessTime": "2018-09-30T02:12:44.659Z",
+      "changeTime": "2018-09-30T02:12:44.659Z",
+      "birthTime": "2018-09-28T03:14:49.144Z",
+      "root": "/",
+      "dir": "/Users/aaloktrivedi/aalok-portfolio/src/pages",
+      "base": "experience.js",
+      "ext": ".js",
+      "name": "experience",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8645546827,
+      "blocks": 8,
+      "atimeMs": 1538273564658.7576,
+      "mtimeMs": 1538273564659.1936,
+      "ctimeMs": 1538273564659.1936,
+      "birthtimeMs": 1538104489143.7488,
+      "atime": "2018-09-30T02:12:44.659Z",
+      "mtime": "2018-09-30T02:12:44.659Z",
+      "ctime": "2018-09-30T02:12:44.659Z",
+      "birthtime": "2018-09-28T03:14:49.144Z"
+    },
+    "1ee82800-adc5-5818-91ef-3c6192131dd5": {
+      "id": "1ee82800-adc5-5818-91ef-3c6192131dd5",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0289075d9f5549a3b2be41636ef9fb42",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 345,
+      "prettySize": "345 B",
+      "modifiedTime": "2018-09-30T01:16:04.710Z",
+      "accessTime": "2018-09-30T01:16:04.710Z",
+      "changeTime": "2018-09-30T01:16:04.710Z",
+      "birthTime": "2018-09-27T20:50:32.410Z",
+      "root": "/",
+      "dir": "/Users/aaloktrivedi/aalok-portfolio/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8645546830,
+      "blocks": 8,
+      "atimeMs": 1538270164709.5325,
+      "mtimeMs": 1538270164709.866,
+      "ctimeMs": 1538270164709.866,
+      "birthtimeMs": 1538081432409.6326,
+      "atime": "2018-09-30T01:16:04.710Z",
+      "mtime": "2018-09-30T01:16:04.710Z",
+      "ctime": "2018-09-30T01:16:04.710Z",
+      "birthtime": "2018-09-27T20:50:32.410Z"
+    },
+    "148bca33-9df5-5604-8509-a1d806b08e72": {
+      "id": "148bca33-9df5-5604-8509-a1d806b08e72",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "417c411f4441296190d5c16ee560023a",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/work.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/work.js",
+      "relativePath": "work.js",
+      "extension": "js",
+      "size": 265,
+      "prettySize": "265 B",
+      "modifiedTime": "2018-09-30T01:19:40.953Z",
+      "accessTime": "2018-09-30T01:19:40.953Z",
+      "changeTime": "2018-09-30T01:19:40.953Z",
+      "birthTime": "2018-09-28T03:14:40.060Z",
+      "root": "/",
+      "dir": "/Users/aaloktrivedi/aalok-portfolio/src/pages",
+      "base": "work.js",
+      "ext": ".js",
+      "name": "work",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8645546832,
+      "blocks": 8,
+      "atimeMs": 1538270380952.609,
+      "mtimeMs": 1538270380953.0464,
+      "ctimeMs": 1538270380953.0464,
+      "birthtimeMs": 1538104480060.199,
+      "atime": "2018-09-30T01:19:40.953Z",
+      "mtime": "2018-09-30T01:19:40.953Z",
+      "ctime": "2018-09-30T01:19:40.953Z",
+      "birthtime": "2018-09-28T03:14:40.060Z"
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -840,12 +1224,16 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6f678c4e634861e2262fcdd72aa31588"
+    "PLUGINS_HASH": "6cca72d89738b0b8d3eef131f9141055"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
+        "/",
         "sq--src-components-layout-js"
+      ],
+      "___SOURCE___": [
+        "/"
       ]
     },
     "connections": {}
@@ -894,7 +1282,7 @@
       "id": "sq--src-components-layout-js",
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
+      "hash": 2994927498
     }
   }
 }
