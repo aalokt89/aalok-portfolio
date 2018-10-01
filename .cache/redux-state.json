@@ -524,122 +524,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-source-contentful": {
-      "resolve": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-source-contentful",
-      "id": "Plugin gatsby-source-contentful",
-      "name": "gatsby-source-contentful",
-      "version": "2.0.1",
-      "pluginOptions": {
-        "plugins": [],
-        "spaceId": "h5uukzlo5d52",
-        "accessToken": "18a54098f34730ea722c4c658d1b3e0925f24c6c34c41b6980054a41d2dd9ccd",
-        "environment": "master",
-        "host": "cdn.contentful.com"
-      },
-      "nodeAPIs": [
-        "setFieldsOnGraphQLNodeType",
-        "sourceNodes",
-        "onPreExtractQueries"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-source-contentful",
-      "packageJson": {
-        "name": "gatsby-source-contentful",
-        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
-        "version": "2.0.1",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "gatsby-source-plugin"
-        ],
-        "author": {
-          "name": "Marcus Ericsson",
-          "email": "mericsson@gmail.com",
-          "url": "mericsson.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "axios",
-            "version": "^0.18.0"
-          },
-          {
-            "name": "base64-img",
-            "version": "^1.0.3"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "contentful",
-            "version": "^6.1.0"
-          },
-          {
-            "name": "deep-map",
-            "version": "^1.5.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "gatsby-plugin-sharp",
-            "version": "^2.0.0-rc.7"
-          },
-          {
-            "name": "is-online",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "json-stringify-safe",
-            "version": "^5.0.1"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "qs",
-            "version": "^6.4.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "583441a871d5aecbf9602c8b6e3c8fc5",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin gatsby-source-prismic": {
       "resolve": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-source-prismic",
       "id": "Plugin gatsby-source-prismic",
@@ -734,7 +618,7 @@
       "resolve": "/Users/aaloktrivedi/aalok-portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "75c672a71d669d326c265ed9d4cc28dc",
+      "version": "ec34df1b9a2ebd3864d16b4f0e01eb4b",
       "pluginOptions": {
         "plugins": []
       },
@@ -770,10 +654,6 @@
           },
           {
             "name": "gatsby-plugin-sass",
-            "version": "^2.0.1"
-          },
-          {
-            "name": "gatsby-source-contentful",
             "version": "^2.0.1"
           },
           {
@@ -813,7 +693,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "abd05043e750708c085c7c2962f1b9ec",
+        "contentDigest": "5dd603981b8505b0bd59bffd424093e9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -921,76 +801,15 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-01T19:22:56.139Z",
+      "buildTime": "2018-10-01T20:58:04.461Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a61550d89cf3bc6770d4b4f4109b88e4",
+        "contentDigest": "1e84052484672a50c614b720ab6d53f9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
-    },
-    "eeabb520-50dd-53e4-bdcf-6f8212552bd3": {
-      "id": "eeabb520-50dd-53e4-bdcf-6f8212552bd3",
-      "parent": null,
-      "children": [],
-      "name": "Project",
-      "displayField": "projectTitle",
-      "description": "new project from my portfolio",
-      "internal": {
-        "type": "ContentfulContentType",
-        "contentDigest": "91323c0b1a81b5a25c41fbed4385239c",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "dc23bf7d-1643-5ead-b32b-fdd57d6a7d3d": {
-      "projectTitle": "Market Aces",
-      "services": "UI/UX Design | Branding & Identity Design",
-      "id": "dc23bf7d-1643-5ead-b32b-fdd57d6a7d3d",
-      "contentful_id": "26mbYU0jfukiEwWqMWaM",
-      "createdAt": "2018-09-30T04:15:38.766Z",
-      "updatedAt": "2018-09-30T04:15:38.766Z",
-      "parent": "Project",
-      "children": [],
-      "internal": {
-        "type": "ContentfulProject",
-        "contentDigest": "babfa0a49fc28320b6983839d1874661",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "en-US"
-    },
-    "9cb10c54-5206-5a72-b9e1-ad6a4c9656b0": {
-      "projectTitle": "Hinge",
-      "services": "UI/UX | Interaction Design",
-      "id": "9cb10c54-5206-5a72-b9e1-ad6a4c9656b0",
-      "contentful_id": "3T0t1JO0Tmc0oikYCuoGG4",
-      "createdAt": "2018-09-30T03:23:33.886Z",
-      "updatedAt": "2018-09-30T04:13:02.451Z",
-      "parent": "Project",
-      "children": [],
-      "internal": {
-        "type": "ContentfulProject",
-        "contentDigest": "19a963346684e8450c70e487596f3177",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "en-US"
-    },
-    "b7b9d96e-1c1e-547a-84ae-e8e8a3e795a4": {
-      "projectTitle": "Strypes",
-      "services": "UI/UX | Interaction Design",
-      "id": "b7b9d96e-1c1e-547a-84ae-e8e8a3e795a4",
-      "contentful_id": "4GxEQDzaRWoCeSucUO8awY",
-      "createdAt": "2018-09-30T03:23:33.866Z",
-      "updatedAt": "2018-09-30T04:11:05.083Z",
-      "parent": "Project",
-      "children": [],
-      "internal": {
-        "type": "ContentfulProject",
-        "contentDigest": "09eac173070375dfdd59ef590f6d4a11",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "en-US"
     },
     "/Users/aaloktrivedi/aalok-portfolio/.cache/gatsby-source-filesystem/ec9102054cedaa4e133413799feb0c6a.png absPath of file": {
       "id": "/Users/aaloktrivedi/aalok-portfolio/.cache/gatsby-source-filesystem/ec9102054cedaa4e133413799feb0c6a.png absPath of file",
@@ -1009,10 +828,10 @@
       "extension": "png",
       "size": 941465,
       "prettySize": "941 kB",
-      "modifiedTime": "2018-10-01T18:53:14.297Z",
-      "accessTime": "2018-10-01T18:53:13.964Z",
-      "changeTime": "2018-10-01T18:53:14.299Z",
-      "birthTime": "2018-10-01T18:53:13.964Z",
+      "modifiedTime": "2018-10-01T20:58:12.584Z",
+      "accessTime": "2018-10-01T20:58:12.290Z",
+      "changeTime": "2018-10-01T20:58:12.587Z",
+      "birthTime": "2018-10-01T20:58:12.290Z",
       "root": "/",
       "dir": "/Users/aaloktrivedi/aalok-portfolio/.cache/gatsby-source-filesystem",
       "base": "ec9102054cedaa4e133413799feb0c6a.png",
@@ -1026,24 +845,24 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8650283805,
+      "ino": 8650389322,
       "blocks": 1840,
-      "atimeMs": 1538419993964.3933,
-      "mtimeMs": 1538419994297.2253,
-      "ctimeMs": 1538419994298.9573,
-      "birthtimeMs": 1538419993964.3933,
-      "atime": "2018-10-01T18:53:13.964Z",
-      "mtime": "2018-10-01T18:53:14.297Z",
-      "ctime": "2018-10-01T18:53:14.299Z",
-      "birthtime": "2018-10-01T18:53:13.964Z"
+      "atimeMs": 1538427492290.3857,
+      "mtimeMs": 1538427492583.8152,
+      "ctimeMs": 1538427492586.8186,
+      "birthtimeMs": 1538427492290.3857,
+      "atime": "2018-10-01T20:58:12.290Z",
+      "mtime": "2018-10-01T20:58:12.584Z",
+      "ctime": "2018-10-01T20:58:12.587Z",
+      "birthtime": "2018-10-01T20:58:12.290Z"
     },
     "Prismic__PortfolioProjects__W7JzNRAAACoAQKHW": {
-      "uid": null,
+      "uid": "strypes",
       "type": "portfolio_projects",
-      "href": "https://aaloktrivedi.cdn.prismic.io/api/v2/documents/search?ref=W7JzqhAAACoAQKQA&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22W7JzNRAAACoAQKHW%22%29+%5D%5D",
+      "href": "https://aaloktrivedi.cdn.prismic.io/api/v2/documents/search?ref=W7KBrxAAACcAQNog&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22W7JzNRAAACoAQKHW%22%29+%5D%5D",
       "tags": [],
       "first_publication_date": "2018-10-01T19:21:14+0000",
-      "last_publication_date": "2018-10-01T19:21:14+0000",
+      "last_publication_date": "2018-10-01T19:47:36+0000",
       "slugs": [
         "strypes",
         "hinge"
@@ -1102,18 +921,18 @@
       "children": [],
       "internal": {
         "type": "PrismicPortfolioProjects",
-        "contentDigest": "b16d7720950b958fa194e6d0e7247245",
+        "contentDigest": "ae4dcd40fbc0f0032f45916fe0313c34",
         "owner": "gatsby-source-prismic"
       },
       "dataString": "{\"project_title\":[{\"type\":\"heading1\",\"text\":\"Strypes\",\"spans\":[]}],\"services\":[{\"type\":\"paragraph\",\"text\":\"UI/UX & Interaction Design\",\"spans\":[]}],\"featured_image\":{\"dimensions\":{\"width\":1659,\"height\":1180},\"alt\":null,\"copyright\":null,\"url\":\"https://aaloktrivedi.cdn.prismic.io/aaloktrivedi/18c2154bb1d0df41c2635ca21df33c144b60bffe_hinge_cover.png\"},\"project_content\":[{\"type\":\"paragraph\",\"text\":\"Hello this is content for Strypes\",\"spans\":[]}]}"
     },
     "Prismic__PortfolioProjects__W7JzJRAAACoAQKGN": {
-      "uid": null,
+      "uid": "hinge",
       "type": "portfolio_projects",
-      "href": "https://aaloktrivedi.cdn.prismic.io/api/v2/documents/search?ref=W7JzqhAAACoAQKQA&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22W7JzJRAAACoAQKGN%22%29+%5D%5D",
+      "href": "https://aaloktrivedi.cdn.prismic.io/api/v2/documents/search?ref=W7KBrxAAACcAQNog&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22W7JzJRAAACoAQKGN%22%29+%5D%5D",
       "tags": [],
       "first_publication_date": "2018-10-01T19:19:08+0000",
-      "last_publication_date": "2018-10-01T19:19:08+0000",
+      "last_publication_date": "2018-10-01T20:21:03+0000",
       "slugs": [
         "hinge"
       ],
@@ -1148,7 +967,7 @@
             "width": 1659,
             "height": 1180
           },
-          "alt": "",
+          "alt": "Hinge Cover Photo",
           "copyright": "",
           "url": "https://aaloktrivedi.cdn.prismic.io/aaloktrivedi/18c2154bb1d0df41c2635ca21df33c144b60bffe_hinge_cover.png",
           "localFile___NODE": "/Users/aaloktrivedi/aalok-portfolio/.cache/gatsby-source-filesystem/ec9102054cedaa4e133413799feb0c6a.png absPath of file"
@@ -1171,10 +990,10 @@
       "children": [],
       "internal": {
         "type": "PrismicPortfolioProjects",
-        "contentDigest": "f9a63dc212340e7c9e20ff1a6c8f4129",
+        "contentDigest": "7d93b0b9d60e87e3321f473b48768046",
         "owner": "gatsby-source-prismic"
       },
-      "dataString": "{\"project_title\":[{\"type\":\"heading1\",\"text\":\"Hinge\",\"spans\":[]}],\"services\":[{\"type\":\"paragraph\",\"text\":\"UI/UX & Interaction Design\",\"spans\":[]}],\"featured_image\":{\"dimensions\":{\"width\":1659,\"height\":1180},\"alt\":null,\"copyright\":null,\"url\":\"https://aaloktrivedi.cdn.prismic.io/aaloktrivedi/18c2154bb1d0df41c2635ca21df33c144b60bffe_hinge_cover.png\"},\"project_content\":[{\"type\":\"paragraph\",\"text\":\"Hello this is content for Hinge\",\"spans\":[]}]}"
+      "dataString": "{\"project_title\":[{\"type\":\"heading1\",\"text\":\"Hinge\",\"spans\":[]}],\"services\":[{\"type\":\"paragraph\",\"text\":\"UI/UX & Interaction Design\",\"spans\":[]}],\"featured_image\":{\"dimensions\":{\"width\":1659,\"height\":1180},\"alt\":\"Hinge Cover Photo\",\"copyright\":null,\"url\":\"https://aaloktrivedi.cdn.prismic.io/aaloktrivedi/18c2154bb1d0df41c2635ca21df33c144b60bffe_hinge_cover.png\"},\"project_content\":[{\"type\":\"paragraph\",\"text\":\"Hello this is content for Hinge\",\"spans\":[]}]}"
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1298,12 +1117,8 @@
     }
   },
   "status": {
-    "plugins": {
-      "gatsby-source-contentful": {
-        "h5uukzlo5d52-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCp8OWwqjCjMKfQ8OMw6bCssKrw6bCkX07wqvChDfDmQ7CpTzDrMK_TMONwoA-wpvDimAYwqsVO8KVwrAswp42UMOKwp9ISBvCqcKwN8KORn3CmMKCOURSw7Asw7fClSDDpMKVwo8"
-      }
-    },
-    "PLUGINS_HASH": "1f5dbc6cf3cb424720259fb0815ab2f0"
+    "plugins": {},
+    "PLUGINS_HASH": "dc404d4bf2f39d49716b14222e67f5ac"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1312,7 +1127,6 @@
       ]
     },
     "connections": {
-      "ContentfulProject": [],
       "PrismicPortfolioProjects": [
         "/"
       ]
