@@ -1,4 +1,5 @@
 import React from 'react';
+import PropType from 'prop-types';
 import workIcon from '../images//icons/work-icon.svg';
 import Button from './Buttons';
 import ShowcaseProject from './ShowcaseProject';
@@ -11,12 +12,21 @@ const WorkShowcase = props => (
       <div className="work-illustration" />
       <Button type="secondary" label="See More" />
     </div>
+
     <div className="recent-projects">
-      <ShowcaseProject projectTitle="Hinge" />
-      <ShowcaseProject projectTitle="Strypes" />
-      <ShowcaseProject projectTitle="Market Aces" />
+      {props.data.allContentfulProject.edges.map(project => (
+        <ShowcaseProject
+          key={project.node.id}
+          projectTitle={project.node.projectTitle}
+          services={project.node.services}
+        />
+      ))}
     </div>
   </section>
 );
 
+WorkShowcase.propTypes = {
+  sectionTitle: PropType.string.isRequired,
+  data: PropType.object.isRequired
+};
 export default WorkShowcase;

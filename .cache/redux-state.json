@@ -635,11 +635,127 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-source-contentful": {
+      "resolve": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-source-contentful",
+      "id": "Plugin gatsby-source-contentful",
+      "name": "gatsby-source-contentful",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "h5uukzlo5d52",
+        "accessToken": "18a54098f34730ea722c4c658d1b3e0925f24c6c34c41b6980054a41d2dd9ccd",
+        "environment": "master",
+        "host": "cdn.contentful.com"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "2.0.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "axios",
+            "version": "^0.18.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-rc.7"
+          },
+          {
+            "name": "is-online",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "583441a871d5aecbf9602c8b6e3c8fc5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/aaloktrivedi/aalok-portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "c406b6cac794e59ec6ef074dcca543ba",
+      "version": "6df803e0908a22fd2e88ff8b03e670cc",
       "pluginOptions": {
         "plugins": []
       },
@@ -675,6 +791,10 @@
           },
           {
             "name": "gatsby-plugin-sass",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "gatsby-source-contentful",
             "version": "^2.0.1"
           },
           {
@@ -714,7 +834,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "89ebd86c6f35e38f0676ea88ab5ff074",
+        "contentDigest": "b13afe98fd7ae8f4a0bbfed2f68e527f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -822,12 +942,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-30T00:51:42.732Z",
+      "buildTime": "2018-09-30T04:45:41.666Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6472ce7d6519ad767c00b4806ab8ca67",
+        "contentDigest": "b04eeae2a2fba4793ed6cfd08312d109",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -837,7 +957,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "aac482ec0e5ca567a485b948d4f2e34d",
+        "contentDigest": "8adf26b3ae0e201642b431914bdbd007",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -849,7 +969,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-09-29T17:06:48.894Z",
-      "accessTime": "2018-09-30T00:51:46.787Z",
+      "accessTime": "2018-09-30T04:45:45.708Z",
       "changeTime": "2018-09-29T17:06:48.894Z",
       "birthTime": "2018-09-27T20:50:32.409Z",
       "root": "/",
@@ -867,11 +987,11 @@
       "blksize": 4194304,
       "ino": 8645546826,
       "blocks": 0,
-      "atimeMs": 1538268706787.0562,
+      "atimeMs": 1538282745708.1965,
       "mtimeMs": 1538240808893.813,
       "ctimeMs": 1538240808893.813,
       "birthtimeMs": 1538081432409.3232,
-      "atime": "2018-09-30T00:51:46.787Z",
+      "atime": "2018-09-30T04:45:45.708Z",
       "mtime": "2018-09-29T17:06:48.894Z",
       "ctime": "2018-09-29T17:06:48.894Z",
       "birthtime": "2018-09-27T20:50:32.409Z"
@@ -939,7 +1059,7 @@
       "size": 329,
       "prettySize": "329 B",
       "modifiedTime": "2018-09-30T02:12:36.043Z",
-      "accessTime": "2018-09-30T02:12:36.041Z",
+      "accessTime": "2018-09-30T02:57:10.899Z",
       "changeTime": "2018-09-30T02:12:36.043Z",
       "birthTime": "2018-09-28T03:14:56.056Z",
       "root": "/",
@@ -957,11 +1077,11 @@
       "blksize": 4194304,
       "ino": 8645546831,
       "blocks": 8,
-      "atimeMs": 1538273556041.4766,
+      "atimeMs": 1538276230899.244,
       "mtimeMs": 1538273556043.4387,
       "ctimeMs": 1538273556043.4387,
       "birthtimeMs": 1538104496056.3044,
-      "atime": "2018-09-30T02:12:36.041Z",
+      "atime": "2018-09-30T02:57:10.899Z",
       "mtime": "2018-09-30T02:12:36.043Z",
       "ctime": "2018-09-30T02:12:36.043Z",
       "birthtime": "2018-09-28T03:14:56.056Z"
@@ -984,7 +1104,7 @@
       "size": 343,
       "prettySize": "343 B",
       "modifiedTime": "2018-09-30T02:12:44.659Z",
-      "accessTime": "2018-09-30T02:12:44.659Z",
+      "accessTime": "2018-09-30T02:12:45.945Z",
       "changeTime": "2018-09-30T02:12:44.659Z",
       "birthTime": "2018-09-28T03:14:49.144Z",
       "root": "/",
@@ -1002,11 +1122,11 @@
       "blksize": 4194304,
       "ino": 8645546827,
       "blocks": 8,
-      "atimeMs": 1538273564658.7576,
+      "atimeMs": 1538273565944.8872,
       "mtimeMs": 1538273564659.1936,
       "ctimeMs": 1538273564659.1936,
       "birthtimeMs": 1538104489143.7488,
-      "atime": "2018-09-30T02:12:44.659Z",
+      "atime": "2018-09-30T02:12:45.945Z",
       "mtime": "2018-09-30T02:12:44.659Z",
       "ctime": "2018-09-30T02:12:44.659Z",
       "birthtime": "2018-09-28T03:14:49.144Z"
@@ -1016,7 +1136,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0289075d9f5549a3b2be41636ef9fb42",
+        "contentDigest": "8e03e94e632a826407a5f43bd3307a73",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/index.js\"",
@@ -1026,11 +1146,11 @@
       "absolutePath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 345,
-      "prettySize": "345 B",
-      "modifiedTime": "2018-09-30T01:16:04.710Z",
-      "accessTime": "2018-09-30T01:16:04.710Z",
-      "changeTime": "2018-09-30T01:16:04.710Z",
+      "size": 609,
+      "prettySize": "609 B",
+      "modifiedTime": "2018-09-30T03:59:10.178Z",
+      "accessTime": "2018-09-30T03:59:10.177Z",
+      "changeTime": "2018-09-30T03:59:10.178Z",
       "birthTime": "2018-09-27T20:50:32.410Z",
       "root": "/",
       "dir": "/Users/aaloktrivedi/aalok-portfolio/src/pages",
@@ -1047,13 +1167,13 @@
       "blksize": 4194304,
       "ino": 8645546830,
       "blocks": 8,
-      "atimeMs": 1538270164709.5325,
-      "mtimeMs": 1538270164709.866,
-      "ctimeMs": 1538270164709.866,
+      "atimeMs": 1538279950176.8936,
+      "mtimeMs": 1538279950177.5542,
+      "ctimeMs": 1538279950177.5542,
       "birthtimeMs": 1538081432409.6326,
-      "atime": "2018-09-30T01:16:04.710Z",
-      "mtime": "2018-09-30T01:16:04.710Z",
-      "ctime": "2018-09-30T01:16:04.710Z",
+      "atime": "2018-09-30T03:59:10.177Z",
+      "mtime": "2018-09-30T03:59:10.178Z",
+      "ctime": "2018-09-30T03:59:10.178Z",
       "birthtime": "2018-09-27T20:50:32.410Z"
     },
     "148bca33-9df5-5604-8509-a1d806b08e72": {
@@ -1074,7 +1194,7 @@
       "size": 265,
       "prettySize": "265 B",
       "modifiedTime": "2018-09-30T01:19:40.953Z",
-      "accessTime": "2018-09-30T01:19:40.953Z",
+      "accessTime": "2018-09-30T01:19:41.985Z",
       "changeTime": "2018-09-30T01:19:40.953Z",
       "birthTime": "2018-09-28T03:14:40.060Z",
       "root": "/",
@@ -1092,14 +1212,75 @@
       "blksize": 4194304,
       "ino": 8645546832,
       "blocks": 8,
-      "atimeMs": 1538270380952.609,
+      "atimeMs": 1538270381985.3245,
       "mtimeMs": 1538270380953.0464,
       "ctimeMs": 1538270380953.0464,
       "birthtimeMs": 1538104480060.199,
-      "atime": "2018-09-30T01:19:40.953Z",
+      "atime": "2018-09-30T01:19:41.985Z",
       "mtime": "2018-09-30T01:19:40.953Z",
       "ctime": "2018-09-30T01:19:40.953Z",
       "birthtime": "2018-09-28T03:14:40.060Z"
+    },
+    "eeabb520-50dd-53e4-bdcf-6f8212552bd3": {
+      "id": "eeabb520-50dd-53e4-bdcf-6f8212552bd3",
+      "parent": null,
+      "children": [],
+      "name": "Project",
+      "displayField": "projectTitle",
+      "description": "new project from my portfolio",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "91323c0b1a81b5a25c41fbed4385239c",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "9cb10c54-5206-5a72-b9e1-ad6a4c9656b0": {
+      "projectTitle": "Hinge",
+      "services": "UI/UX | Interaction Design",
+      "id": "9cb10c54-5206-5a72-b9e1-ad6a4c9656b0",
+      "contentful_id": "3T0t1JO0Tmc0oikYCuoGG4",
+      "createdAt": "2018-09-30T03:23:33.886Z",
+      "updatedAt": "2018-09-30T04:13:02.451Z",
+      "parent": "Project",
+      "children": [],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "19a963346684e8450c70e487596f3177",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "b7b9d96e-1c1e-547a-84ae-e8e8a3e795a4": {
+      "projectTitle": "Strypes",
+      "services": "UI/UX | Interaction Design",
+      "id": "b7b9d96e-1c1e-547a-84ae-e8e8a3e795a4",
+      "contentful_id": "4GxEQDzaRWoCeSucUO8awY",
+      "createdAt": "2018-09-30T03:23:33.866Z",
+      "updatedAt": "2018-09-30T04:11:05.083Z",
+      "parent": "Project",
+      "children": [],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "09eac173070375dfdd59ef590f6d4a11",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "dc23bf7d-1643-5ead-b32b-fdd57d6a7d3d": {
+      "projectTitle": "Market Aces",
+      "services": "UI/UX Design | Branding & Identity Design",
+      "id": "dc23bf7d-1643-5ead-b32b-fdd57d6a7d3d",
+      "contentful_id": "26mbYU0jfukiEwWqMWaM",
+      "createdAt": "2018-09-30T04:15:38.766Z",
+      "updatedAt": "2018-09-30T04:15:38.766Z",
+      "parent": "Project",
+      "children": [],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "babfa0a49fc28320b6983839d1874661",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1223,28 +1404,32 @@
     }
   },
   "status": {
-    "plugins": {},
-    "PLUGINS_HASH": "6cca72d89738b0b8d3eef131f9141055"
+    "plugins": {
+      "gatsby-source-contentful": {
+        "h5uukzlo5d52-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCp8OWwqjCjMKfQ8OMw6bCssKrw6bCkX07wqvChDfDmQ7CpTzDrMK_TMONwoA-wpvDimAYwqsVO8KVwrAswp42UMOKwp9ISBvCqcKwN8KORn3CmMKCOURSw7Asw7fClSDDpMKVwo8"
+      }
+    },
+    "PLUGINS_HASH": "d64a6513427435a3d992ad4d675836f4"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "/",
         "sq--src-components-layout-js"
-      ],
-      "___SOURCE___": [
-        "/"
       ]
     },
-    "connections": {}
+    "connections": {
+      "ContentfulProject": [
+        "/"
+      ]
+    }
   },
   "jsonDataPaths": {
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-layout-js": 2994927498,
     "experience-6a7": "563/path---experience-6-a-7-ce2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "117/path---index-6a9-BD7SA6j7nUTu3moQSVw31z9gaU",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "work-fa6": "469/path---work-fa-6-fb4-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
@@ -1267,7 +1452,7 @@
       "componentPath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/experience.js"
     },
     "/Users/aaloktrivedi/aalok-portfolio/src/pages/index.js": {
-      "query": "",
+      "query": "query projectQuery {\n  allContentfulProject {\n    edges {\n      node {\n        id\n        projectTitle\n        services\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/index.js"
     },
     "/Users/aaloktrivedi/aalok-portfolio/src/pages/work.js": {

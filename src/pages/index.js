@@ -2,12 +2,26 @@ import React from 'react';
 import Layout from '../components/layout';
 import HomeHero from '../components/HomeHero';
 import WorkShowcase from '../components/WorkShowcase';
+import { graphql } from 'gatsby';
 
-const IndexPage = ({ location }) => (
+const IndexPage = ({ location, data }) => (
   <Layout location={location}>
     <HomeHero />
-    <WorkShowcase sectionTitle="My Work" />
+    <WorkShowcase sectionTitle="My Work" data={data} />
   </Layout>
 );
 
+export const ContentfulProjectQuery = graphql`
+  query projectQuery {
+    allContentfulProject {
+      edges {
+        node {
+          id
+          projectTitle
+          services
+        }
+      }
+    }
+  }
+`;
 export default IndexPage;
