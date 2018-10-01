@@ -39,7 +39,7 @@ const getTitle = (pathname, siteTitle) => {
   // return 'other pages';
 };
 
-const Layout = ({ location: { pathname }, children }) => {
+const Layout = ({ location: pathname, children }) => {
   return (
     <StaticQuery
       query={graphql`
