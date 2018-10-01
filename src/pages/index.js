@@ -11,14 +11,20 @@ const IndexPage = ({ location, data }) => (
   </Layout>
 );
 
-export const ContentfulProjectQuery = graphql`
-  query projectQuery {
-    allContentfulProject {
+export const PrismicProjectQuery = graphql`
+  query PrismicQuery {
+    allPrismicPortfolioProjects {
       edges {
         node {
           id
-          projectTitle
-          services
+          data {
+            project_title {
+              text
+            }
+            services {
+              text
+            }
+          }
         }
       }
     }

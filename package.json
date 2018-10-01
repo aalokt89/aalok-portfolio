@@ -9,8 +9,6 @@
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
-    "gatsby-source-contentful": "^2.0.1",
-    "gatsby-source-filesystem": "^2.0.1",
     "gatsby-source-prismic": "^1.2.0",
     "node-sass": "^4.9.3",
     "normalize.css": "^8.0.0",

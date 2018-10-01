@@ -14,11 +14,11 @@ const WorkShowcase = props => (
     </div>
 
     <div className="recent-projects">
-      {props.data.allContentfulProject.edges.map(project => (
+      {props.data.allPrismicPortfolioProjects.edges.map(project => (
         <ShowcaseProject
           key={project.node.id}
-          projectTitle={project.node.projectTitle}
-          services={project.node.services}
+          projectTitle={project.node.data.project_title.text}
+          services={project.node.data.services.text}
         />
       ))}
     </div>

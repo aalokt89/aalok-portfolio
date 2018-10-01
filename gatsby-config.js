@@ -19,18 +19,10 @@ module.exports = {
     'gatsby-plugin-offline',
     `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-prismic`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`
-      }
-    },
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: `h5uukzlo5d52`,
-        accessToken: `18a54098f34730ea722c4c658d1b3e0925f24c6c34c41b6980054a41d2dd9ccd`,
-        environment: `master`
+        repositoryName: `aaloktrivedi`,
+        accessToken: `MC5XN0pwMlJBQUFDY0FRSGVl.GXhLL34eVzXvv73vv71a77-977-9U--_vRzvv73vv73vv73vv73vv73vv73vv73vv70w77-977-977-977-9Aw4P`
       }
     }
   ]
