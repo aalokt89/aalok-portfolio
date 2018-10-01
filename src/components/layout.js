@@ -7,39 +7,7 @@ import Footer from './Footer';
 import '../css/css-reset.css';
 import '../css/main.scss';
 
-const getTitle = (pathname, siteTitle) => {
-  let pageTitle = siteTitle;
-  switch (pathname) {
-    case '/': {
-      pageTitle = `U!/UX Designer`;
-      break;
-    }
-    case '/work': {
-      pageTitle = `My Work`;
-      break;
-    }
-    case '/experience': {
-      pageTitle = `My experience`;
-      break;
-    }
-    case '/contact': {
-      pageTitle = `Contact me`;
-      break;
-    }
-    default: {
-      pageTitle = siteTitle;
-      break;
-    }
-  }
-
-  return pageTitle;
-  // // if location matches return your choice of title
-  // if (pathname === '/') return 'index';
-  // // otherwise return a default title
-  // return 'other pages';
-};
-
-const Layout = ({ location: { pathname }, children }) => {
+const Layout = ({ children }) => {
   return (
     <StaticQuery
       query={graphql`
@@ -55,10 +23,7 @@ const Layout = ({ location: { pathname }, children }) => {
         <>
           <Helmet
             // title={data.site.siteMetadata.title}
-            title={`Aalok Trivedi: ${getTitle(
-              pathname,
-              data.site.siteMetadata.title
-            )}`}
+            title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: 'Sample' },
               { name: 'keywords', content: 'sample, something' }
