@@ -4,8 +4,8 @@ import HomeHero from '../components/HomeHero';
 import WorkShowcase from '../components/WorkShowcase';
 import { graphql } from 'gatsby';
 
-const IndexPage = ({ location, data }) => (
-  <Layout location={location}>
+const IndexPage = ({ data }) => (
+  <Layout>
     <HomeHero />
     <WorkShowcase sectionTitle="My Work" data={data} />
   </Layout>
