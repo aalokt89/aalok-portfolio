@@ -56,7 +56,7 @@ const Layout = ({ location: { pathname }, children }) => {
           <Helmet
             // title={data.site.siteMetadata.title}
             title={`Aalok Trivedi: ${getTitle(
-              { pathname },
+              pathname,
               data.site.siteMetadata.title
             )}`}
             meta={[
