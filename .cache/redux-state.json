@@ -750,6 +750,10 @@
             "version": "^8.0.0"
           },
           {
+            "name": "polished",
+            "version": "^2.2.0"
+          },
+          {
             "name": "react",
             "version": "^16.5.1"
           },
@@ -886,12 +890,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-02T00:57:42.936Z",
+      "buildTime": "2018-10-02T01:40:22.665Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cb94737d14ac482fe7816b9d8bd693e8",
+        "contentDigest": "55228b347d74b4fea6c065271912ef10",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -913,10 +917,10 @@
       "extension": "png",
       "size": 941465,
       "prettySize": "941 kB",
-      "modifiedTime": "2018-10-02T00:57:48.388Z",
-      "accessTime": "2018-10-02T00:57:48.087Z",
-      "changeTime": "2018-10-02T00:57:48.391Z",
-      "birthTime": "2018-10-02T00:57:48.087Z",
+      "modifiedTime": "2018-10-02T01:40:30.962Z",
+      "accessTime": "2018-10-02T01:40:30.658Z",
+      "changeTime": "2018-10-02T01:40:30.965Z",
+      "birthTime": "2018-10-02T01:40:30.658Z",
       "root": "/",
       "dir": "/Users/aaloktrivedi/aalok-portfolio/.cache/gatsby-source-filesystem",
       "base": "ec9102054cedaa4e133413799feb0c6a.png",
@@ -930,16 +934,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8650453754,
+      "ino": 8650464412,
       "blocks": 1840,
-      "atimeMs": 1538441868087.1128,
-      "mtimeMs": 1538441868388.1816,
-      "ctimeMs": 1538441868390.7695,
-      "birthtimeMs": 1538441868087.1128,
-      "atime": "2018-10-02T00:57:48.087Z",
-      "mtime": "2018-10-02T00:57:48.388Z",
-      "ctime": "2018-10-02T00:57:48.391Z",
-      "birthtime": "2018-10-02T00:57:48.087Z"
+      "atimeMs": 1538444430657.821,
+      "mtimeMs": 1538444430962.1492,
+      "ctimeMs": 1538444430965.351,
+      "birthtimeMs": 1538444430657.821,
+      "atime": "2018-10-02T01:40:30.658Z",
+      "mtime": "2018-10-02T01:40:30.962Z",
+      "ctime": "2018-10-02T01:40:30.965Z",
+      "birthtime": "2018-10-02T01:40:30.658Z"
     },
     "Prismic__PortfolioProjects__W7JzNRAAACoAQKHW": {
       "uid": "strypes",
@@ -1203,7 +1207,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "95e8ac09e74a6fda9aa0275b2083d565"
+    "PLUGINS_HASH": "98c18ff33eff8983ab5179c8c0c976c3"
   },
   "componentDataDependencies": {
     "nodes": {
