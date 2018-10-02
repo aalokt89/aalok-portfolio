@@ -614,11 +614,84 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/aaloktrivedi/aalok-portfolio/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5319986412274e2c347a6ef8240bd45c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/aaloktrivedi/aalok-portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "ec34df1b9a2ebd3864d16b4f0e01eb4b",
+      "version": "99598fbe4d0043851c6d391f5fc6f3d4",
       "pluginOptions": {
         "plugins": []
       },
@@ -636,6 +709,10 @@
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.8.0"
+          },
           {
             "name": "gatsby",
             "version": "^2.0.0"
@@ -655,6 +732,10 @@
           {
             "name": "gatsby-plugin-sass",
             "version": "^2.0.1"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.0"
           },
           {
             "name": "gatsby-source-prismic",
@@ -683,6 +764,10 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.4.9"
           }
         ],
         "devDependencies": [],
@@ -693,7 +778,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5dd603981b8505b0bd59bffd424093e9",
+        "contentDigest": "090645e9f88c3f7f58fc31e947eae51c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -801,12 +886,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-01T20:58:04.461Z",
+      "buildTime": "2018-10-02T00:57:42.936Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1e84052484672a50c614b720ab6d53f9",
+        "contentDigest": "cb94737d14ac482fe7816b9d8bd693e8",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -828,10 +913,10 @@
       "extension": "png",
       "size": 941465,
       "prettySize": "941 kB",
-      "modifiedTime": "2018-10-01T20:58:12.584Z",
-      "accessTime": "2018-10-01T20:58:12.290Z",
-      "changeTime": "2018-10-01T20:58:12.587Z",
-      "birthTime": "2018-10-01T20:58:12.290Z",
+      "modifiedTime": "2018-10-02T00:57:48.388Z",
+      "accessTime": "2018-10-02T00:57:48.087Z",
+      "changeTime": "2018-10-02T00:57:48.391Z",
+      "birthTime": "2018-10-02T00:57:48.087Z",
       "root": "/",
       "dir": "/Users/aaloktrivedi/aalok-portfolio/.cache/gatsby-source-filesystem",
       "base": "ec9102054cedaa4e133413799feb0c6a.png",
@@ -845,16 +930,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8650389322,
+      "ino": 8650453754,
       "blocks": 1840,
-      "atimeMs": 1538427492290.3857,
-      "mtimeMs": 1538427492583.8152,
-      "ctimeMs": 1538427492586.8186,
-      "birthtimeMs": 1538427492290.3857,
-      "atime": "2018-10-01T20:58:12.290Z",
-      "mtime": "2018-10-01T20:58:12.584Z",
-      "ctime": "2018-10-01T20:58:12.587Z",
-      "birthtime": "2018-10-01T20:58:12.290Z"
+      "atimeMs": 1538441868087.1128,
+      "mtimeMs": 1538441868388.1816,
+      "ctimeMs": 1538441868390.7695,
+      "birthtimeMs": 1538441868087.1128,
+      "atime": "2018-10-02T00:57:48.087Z",
+      "mtime": "2018-10-02T00:57:48.388Z",
+      "ctime": "2018-10-02T00:57:48.391Z",
+      "birthtime": "2018-10-02T00:57:48.087Z"
     },
     "Prismic__PortfolioProjects__W7JzNRAAACoAQKHW": {
       "uid": "strypes",
@@ -1118,7 +1203,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "dc404d4bf2f39d49716b14222e67f5ac"
+    "PLUGINS_HASH": "95e8ac09e74a6fda9aa0275b2083d565"
   },
   "componentDataDependencies": {
     "nodes": {

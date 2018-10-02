@@ -24,6 +24,7 @@ module.exports = {
         repositoryName: `aaloktrivedi`,
         accessToken: `MC5XN0pwMlJBQUFDY0FRSGVl.GXhLL34eVzXvv73vv71a77-977-9U--_vRzvv73vv73vv73vv73vv73vv73vv73vv70w77-977-977-977-9Aw4P`
       }
-    }
+    },
+    `gatsby-plugin-styled-components`
   ]
 };
