@@ -12,6 +12,7 @@ const theme = {
 
   //spacing
   spacing: {
+    xs: '.4rem',
     sm: '.8rem',
     reg: '1.6rem',
     med: '3.2rem',

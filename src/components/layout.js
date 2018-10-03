@@ -5,17 +5,18 @@ import { StaticQuery, graphql } from 'gatsby';
 import NavPanel from './Nav/NavPanel';
 import Footer from './Footer';
 import '../css/css-reset.css';
-import styled, { createGlobalStyle, injectGlobal } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
+import theme from '../styles/theme';
 
-const GlobalStyle = createGlobalStyle`
-  html{
-    font-size: 62.5%;
-  }
-  body{
-    font-size: 1.6rem;
-    font-family: Montserrat, -apple-system, helvetica, Roboto, sans-serif;
-  }
-`;
+// const GlobalStyle = createGlobalStyle`
+//   html{
+//     font-size: 62.5%;
+//   }
+//   body{
+//     font-size: 1.6rem;
+//     font-family: Montserrat, -apple-system, helvetica, Roboto, sans-serif;
+//   }
+// `;
 // injectGlobal`
 //   html{
 //     font-size: 62.5%;
@@ -25,6 +26,11 @@ const GlobalStyle = createGlobalStyle`
 //     font-family: Montserrat, -apple-system, helvetica, Roboto, sans-serif;
 //   }
 // `;
+
+const ContentWrapper = styled.main`
+  margin-left: ${props => props.theme.layout.navPanelWidthDesktop};
+`;
+
 const Layout = ({ children }) => {
   return (
     <StaticQuery
@@ -48,9 +54,13 @@ const Layout = ({ children }) => {
           >
             <html lang="en" />
           </Helmet>
-          <NavPanel siteTitle={data.site.siteMetadata.title} />
 
-          <main className="content">{children}</main>
+          <ThemeProvider theme={theme}>
+            <NavPanel siteTitle={data.site.siteMetadata.title} />
+          </ThemeProvider>
+          <ThemeProvider theme={theme}>
+            <ContentWrapper>{children}</ContentWrapper>
+          </ThemeProvider>
 
           <Footer />
         </>
