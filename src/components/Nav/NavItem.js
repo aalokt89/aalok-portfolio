@@ -14,6 +14,7 @@ const NavItem = props => (
   </NavItemWrapper>
 );
 
+//styles
 const NavItemWrapper = styled.li`
   flex-grow: 1;
   padding: ${props => props.theme.spacing.xs} 0;

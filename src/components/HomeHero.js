@@ -1,30 +1,79 @@
 import React from 'react';
-import AnchorLInk from 'react-anchor-link-smooth-scroll';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import myPic from '../images/aalok-trivedi-pic@2x.png';
 import arrowDownBounded from '../images//icons/arrow-down-bounded.svg';
+import styled from 'styled-components';
+import { H1 } from './Typography';
 
 const HomeHero = () => (
-  <section id="hero">
-    <div className="container">
-      <div className="hero-callout">
-        <div className="avatar">
+  <HeroWrapper id="hero">
+    <ContentContainer>
+      <HeroContentGroup>
+        <Avatar>
           <img src={myPic} alt="Aalok Trivedi - UI/UX Designer" />
-        </div>
+        </Avatar>
 
-        <div className="hero-headline">
-          <h1>Hello! My name is Aalok Trivedi.</h1>
-          <h1>
+        <HeroHeadline>
+          <H1 hero>
+            Hello! My name is Aalok Trivedi
+            <span className="period">.</span>
+          </H1>
+          <H1 hero>
             I’m a UI/UX designer, and I love solving people-problems with
-            simple, elegant, and beautiful solutions.
-          </h1>
-        </div>
-      </div>
-    </div>
+            simple, elegant, and beautiful solutions
+            <span className="period">.</span>
+          </H1>
+        </HeroHeadline>
+      </HeroContentGroup>
+    </ContentContainer>
 
-    <AnchorLInk className="arrow-down" href="#work-showcase">
+    <DownArrow>
       <img src={arrowDownBounded} width="40" alt="arrow-down-bounded" />
-    </AnchorLInk>
-  </section>
+    </DownArrow>
+  </HeroWrapper>
 );
 
+//styles
+const HeroWrapper = styled.section`
+  display: grid;
+  background: ${props => props.theme.color.cream};
+  padding: ${props => props.theme.spacing.lg};
+  height: calc(100vh - 12.8rem);
+`;
+
+const ContentContainer = styled.div`
+  max-width: 120rem;
+  margin: 0 auto;
+`;
+const HeroContentGroup = styled.div`
+  height: auto;
+  display: grid;
+  grid-template-columns: 8.8rem 5fr;
+  grid-gap: ${props => props.theme.spacing.reg};
+`;
+
+const Avatar = styled.div`
+  grid-column: span 1;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  img {
+    max-width: 8.8rem;
+    height: 0 auto;
+  }
+`;
+
+const HeroHeadline = styled.div`
+  grid-column: span 1;
+  .period {
+    color: ${props => props.theme.color.secondary};
+  }
+`;
+
+const DownArrow = styled(AnchorLink)`
+  opacity: 0.8;
+  justify-self: center;
+  align-self: end;
+`;
 export default HomeHero;
