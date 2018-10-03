@@ -2,10 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-import NavPanel from './NavPanel';
+import NavPanel from './Nav/NavPanel';
 import Footer from './Footer';
 import '../css/css-reset.css';
-import '../css/main.scss';
+import styled, { ThemeProvider } from 'styled-components';
+import theme from './theme';
+//import '../css/main.scss';
 
 const getTitle = (pathname, siteTitle) => {
   let pageTitle = siteTitle;
@@ -33,11 +35,17 @@ const getTitle = (pathname, siteTitle) => {
   }
 
   return pageTitle;
-  // // if location matches return your choice of title
-  // if (pathname === '/') return 'index';
-  // // otherwise return a default title
-  // return 'other pages';
 };
+
+// const GlobalStyle = createGlobalStyle`
+//   body {
+//     color: ${props => props.theme.text};
+//     font-family: ${props => props.theme.bodyFontStack};
+//   }
+// `;
+const ContentWrapper = styled.main`
+  margin-left: ${props => props.theme.layout.navPanelWidthDesktop};
+`;
 
 const Layout = ({ location: { pathname }, children }) => {
   return (
@@ -64,11 +72,13 @@ const Layout = ({ location: { pathname }, children }) => {
               { name: 'keywords', content: 'sample, something' }
             ]}
           >
-            <html lang="en" />
+            <html lang="en" style={{ fontSize: '62.5%' }} />
           </Helmet>
           <NavPanel siteTitle={data.site.siteMetadata.title} />
 
-          <main className="content">{children}</main>
+          <ThemeProvider theme={theme}>
+            <ContentWrapper className="content">{children}</ContentWrapper>
+          </ThemeProvider>
 
           <Footer />
         </>

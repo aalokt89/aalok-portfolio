@@ -4,22 +4,35 @@
 
 const theme = {
   //colors
-  primaryBlue: '#323648',
-  secondaryBlue: '#00dced',
-  cream: '#fffdf7',
-  purple: '#7261a3',
-  red: '#ff4365',
-  black: '#333',
-  lightGray: '#eee',
+  colors: {
+    primary: '#323648',
+    secondary: '#00dced',
+    cream: '#fffdf7',
+    purple: '#7261a3',
+    red: '#ff4365',
+    black: '#333',
+    lightGray: '#eee',
+    text: '#666'
+  },
 
   //spacing
-  spacingSm: '.8rem',
-  spacingReg: '1.6rem',
-  spacingMed: '3.2rem',
-  spacingLg: '6.4rem',
+  spacing: {
+    sm: '.8rem',
+    reg: '1.6rem',
+    med: '3.2rem',
+    lg: '6.4rem'
+  },
 
   //typography
-  headerFontStack: 'Lora, Montserrat, -apple-system, Roboto, Helvetica,'
+  text: {
+    headerFontStack: 'Lora, Montserrat, -apple-system, Roboto, Helvetica',
+    bodyFontStack: 'Montserrat, -apple-system, helvetica, Roboto, sans-serif'
+  },
+
+  //layout
+  layout: {
+    navPanelWidthDesktop: '13.2rem'
+  }
 };
 
 export default theme;
