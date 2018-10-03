@@ -2,10 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-import NavPanel from './NavPanel';
+import NavPanel from './Nav/NavPanel';
 import Footer from './Footer';
 import '../css/css-reset.css';
-import '../css/main.scss';
 
 const Layout = ({ children }) => {
   return (
@@ -22,7 +21,6 @@ const Layout = ({ children }) => {
       render={data => (
         <>
           <Helmet
-            // title={data.site.siteMetadata.title}
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: 'Sample' },

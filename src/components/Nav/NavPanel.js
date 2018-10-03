@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import logoDark from '../images/aalok-logo-dark.svg';
-import homeIcon from '../images/icons/home-icon.svg';
-import workIcon from '../images/icons/work-icon.svg';
-import experienceIcon from '../images/icons/experience-icon.svg';
-import contactIcon from '../images/icons/contact-icon.svg';
+import logoDark from '../../images/aalok-logo-dark.svg';
+import homeIcon from '../../images/icons/home-icon.svg';
+import workIcon from '../../images/icons/work-icon.svg';
+import experienceIcon from '../../images/icons/experience-icon.svg';
+import contactIcon from '../../images/icons/contact-icon.svg';
 
 const NavPanel = props => (
   <header id="main-nav">
