@@ -5,7 +5,26 @@ import { StaticQuery, graphql } from 'gatsby';
 import NavPanel from './Nav/NavPanel';
 import Footer from './Footer';
 import '../css/css-reset.css';
+import styled, { createGlobalStyle, injectGlobal } from 'styled-components';
 
+const GlobalStyle = createGlobalStyle`
+  html{
+    font-size: 62.5%;
+  }
+  body{
+    font-size: 1.6rem;
+    font-family: Montserrat, -apple-system, helvetica, Roboto, sans-serif;
+  }
+`;
+// injectGlobal`
+//   html{
+//     font-size: 62.5%;
+//   }
+//   body{
+//     font-size: 1.6rem;
+//     font-family: Montserrat, -apple-system, helvetica, Roboto, sans-serif;
+//   }
+// `;
 const Layout = ({ children }) => {
   return (
     <StaticQuery
