@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import myPic from '../images/aalok-trivedi-pic@2x.png';
 import arrowDownBounded from '../images//icons/arrow-down-bounded.svg';
 import styled from 'styled-components';
-import { H1 } from './Typography';
+import { H1 } from './typography';
 
 const HomeHero = () => (
   <HeroWrapper id="hero">
@@ -42,6 +42,8 @@ const HeroWrapper = styled.section`
 `;
 
 const ContentContainer = styled.div`
+  display: flex;
+  align-items: center;
   max-width: 120rem;
   margin: 0 auto;
 `;

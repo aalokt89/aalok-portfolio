@@ -19,8 +19,13 @@ const Footer = props => {
   ];
   return (
     <FooterWrapper>
-      {footerLinks.map(link => (
-        <a href={link.link} target="_blank" rel="noopener noreferrer">
+      {footerLinks.map((link, index) => (
+        <a
+          key={index}
+          href={link.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {link.name}
         </a>
       ))}
@@ -52,6 +57,8 @@ const FooterWrapper = styled.footer`
       background: ${props => props.theme.color.primary};
       border-radius: 50%;
     }
+  }
+    
   }
 `;
 

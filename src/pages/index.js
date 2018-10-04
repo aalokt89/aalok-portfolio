@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
-import HomeHero from '../components/HomeHero';
-import WorkShowcase from '../components/showcase/WorkShowcase';
+import HomeHero from '../components/homeHero';
+import WorkShowcase from '../components/showcase/workShowcase';
 import { graphql } from 'gatsby';
 
 const IndexPage = ({ data }) => (

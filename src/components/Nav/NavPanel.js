@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import NavItem from './NavItem';
+import NavItem from './navItem';
 import logoDark from '../../images/aalok-logo-dark.svg';
 import homeIcon from '../../images/icons/home-icon.svg';
 import workIcon from '../../images/icons/work-icon.svg';
@@ -39,8 +39,13 @@ const NavPanel = props => {
 
       <nav>
         <NavList>
-          {menu.map(link => (
-            <NavItem to={link.link} label={link.label} icon={link.icon} />
+          {menu.map((link, index) => (
+            <NavItem
+              key={index}
+              to={link.link}
+              label={link.label}
+              icon={link.icon}
+            />
           ))}
         </NavList>
       </nav>

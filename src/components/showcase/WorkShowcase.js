@@ -1,10 +1,10 @@
 import React from 'react';
 import PropType from 'prop-types';
 import workIcon from '../../images//icons/work-icon.svg';
-import Button from '../Buttons';
-import ShowcaseProject from './ShowcaseProject';
+import Button from '../buttons';
+import ShowcaseProject from './showcaseProject';
 import styled from 'styled-components';
-import { H1 } from '../Typography';
+import { H1 } from '../typography';
 
 const WorkShowcase = props => (
   <ShowcaseWrapper id="work-showcase">
@@ -12,7 +12,7 @@ const WorkShowcase = props => (
       <img src={workIcon} alt="work-icon" />
       <H1>{props.sectionTitle}</H1>
       <div className="work-illustration" />
-      <Button secondary to="/work" label="See More" />
+      <Button type="secondary" to="/work" label="See More" />
     </ShowcaseIntro>
 
     <RecentProjectsWrapper>

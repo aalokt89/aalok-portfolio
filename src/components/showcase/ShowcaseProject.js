@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { opacify } from 'polished';
-import { H2, P } from '../Typography';
+import { H2, P } from '../typography';
 
 const ShowcaseProject = props => (
   <ShowcaseProjectWrapper>

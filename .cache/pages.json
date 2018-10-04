@@ -30,6 +30,26 @@
         "path": "/experience/"
     },
     {
+        "componentChunkName": "component---src-templates-project-post-js",
+        "jsonName": "hinge-2e1",
+        "path": "/hinge"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-post-js",
+        "jsonName": "market-aces-8ea",
+        "path": "/market-aces"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-post-js",
+        "jsonName": "project-4-d90",
+        "path": "/project-4"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-post-js",
+        "jsonName": "strypes-170",
+        "path": "/strypes"
+    },
+    {
         "componentChunkName": "component---src-pages-work-js",
         "jsonName": "work-fa6",
         "path": "/work/"
