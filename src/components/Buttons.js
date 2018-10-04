@@ -24,7 +24,7 @@ const ButtonWrapper = styled(Link)`
   border-radius: 100px;
   transition: 250ms;
   &:hover {
-    color: 'white';
+    color: white;
     background: ${props =>
       props.secondary
         ? props.theme.color.secondary

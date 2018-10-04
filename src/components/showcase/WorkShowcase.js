@@ -12,7 +12,7 @@ const WorkShowcase = props => (
       <img src={workIcon} alt="work-icon" />
       <H1>{props.sectionTitle}</H1>
       <div className="work-illustration" />
-      <Button to="/work" label="See More" />
+      <Button secondary to="/work" label="See More" />
     </ShowcaseIntro>
 
     <RecentProjectsWrapper>
