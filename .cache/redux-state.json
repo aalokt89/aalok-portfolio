@@ -890,12 +890,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-03T23:49:41.920Z",
+      "buildTime": "2018-10-04T04:43:43.303Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a161247508f56da3d96f4ab29a83111e",
+        "contentDigest": "56c2326d598986339d9c721435b5bc39",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1250,7 +1250,7 @@
       "componentPath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/experience.js"
     },
     "/Users/aaloktrivedi/aalok-portfolio/src/pages/index.js": {
-      "query": "query PrismicQuery {\n  allPrismicPortfolioProjects {\n    edges {\n      node {\n        id\n        data {\n          project_title {\n            text\n          }\n          services {\n            text\n          }\n        }\n      }\n    }\n  }\n}\n",
+      "query": "query PrismicQuery {\n  allPrismicPortfolioProjects(limit: 3) {\n    edges {\n      node {\n        id\n        data {\n          project_title {\n            text\n          }\n          services {\n            text\n          }\n        }\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/index.js"
     },
     "/Users/aaloktrivedi/aalok-portfolio/src/pages/work.js": {

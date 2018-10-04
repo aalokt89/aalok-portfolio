@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
 
 export const PrismicProjectQuery = graphql`
   query PrismicQuery {
-    allPrismicPortfolioProjects {
+    allPrismicPortfolioProjects(limit: 3) {
       edges {
         node {
           id
