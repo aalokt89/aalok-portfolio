@@ -8,22 +8,45 @@ import experienceIcon from '../../images/icons/experience-icon.svg';
 import contactIcon from '../../images/icons/contact-icon.svg';
 import styled from 'styled-components';
 
-const NavPanel = props => (
-  <NavWrapper>
-    <Logo to="/">
-      <img width="64" src={logoDark} alt="Aalok Trivedi" />
-    </Logo>
+const NavPanel = props => {
+  const menu = [
+    {
+      label: 'Home',
+      link: '/',
+      icon: homeIcon
+    },
+    {
+      label: 'Work',
+      link: '/work',
+      icon: workIcon
+    },
+    {
+      label: 'Experience',
+      link: '/experience',
+      icon: experienceIcon
+    },
+    {
+      label: 'Contact',
+      link: '/contact',
+      icon: contactIcon
+    }
+  ];
+  return (
+    <NavWrapper>
+      <Logo to="/">
+        <img width="64" src={logoDark} alt="Aalok Trivedi" />
+      </Logo>
 
-    <nav>
-      <NavList>
-        <NavItem to="/" label="Home" icon={homeIcon} />
-        <NavItem to="/work" label="Work" icon={workIcon} />
-        <NavItem to="/experience" label="Experience" icon={experienceIcon} />
-        <NavItem to="/contact" label="Contact" icon={contactIcon} />
-      </NavList>
-    </nav>
-  </NavWrapper>
-);
+      <nav>
+        <NavList>
+          {menu.map(link => (
+            <NavItem to={link.link} label={link.label} icon={link.icon} />
+          ))}
+        </NavList>
+      </nav>
+    </NavWrapper>
+  );
+};
 
 //styles
 const NavWrapper = styled.header`

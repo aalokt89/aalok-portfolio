@@ -2,31 +2,31 @@ import React from 'react';
 import styled from 'styled-components';
 import { lighten, darken } from 'polished';
 
-const Footer = props => (
-  <FooterWrapper>
-    <a
-      href="http://www.dribbble.com/aalok-trivedi"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Dribbble
-    </a>
-    <a
-      href="http://www.pinterest.com/aalok89"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Pinterest
-    </a>
-    <a
-      href="http://www.logopond.com/aalok89"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      LogoPond
-    </a>
-  </FooterWrapper>
-);
+const Footer = props => {
+  const footerLinks = [
+    {
+      name: 'Dribbble',
+      link: 'http://www.dribbble.com/aalok-trivedi'
+    },
+    {
+      name: 'Pinterest',
+      link: 'http://www.pinterest.com/aalok89'
+    },
+    {
+      name: 'Logopond',
+      link: 'http://www.logopond.com/aalok89'
+    }
+  ];
+  return (
+    <FooterWrapper>
+      {footerLinks.map(link => (
+        <a href={link.link} target="_blank" rel="noopener noreferrer">
+          {link.name}
+        </a>
+      ))}
+    </FooterWrapper>
+  );
+};
 
 const FooterWrapper = styled.footer`
   display: grid;
