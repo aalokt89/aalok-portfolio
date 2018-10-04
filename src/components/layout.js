@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-import NavPanel from './Nav/NavPanel';
+import NavPanel from './nav/NavPanel';
 import Footer from './Footer';
 import '../css/css-reset.css';
 import styled, { ThemeProvider } from 'styled-components';
@@ -61,8 +61,9 @@ const Layout = ({ children }) => {
           <ThemeProvider theme={theme}>
             <ContentWrapper>{children}</ContentWrapper>
           </ThemeProvider>
-
-          <Footer />
+          <ThemeProvider theme={theme}>
+            <Footer />
+          </ThemeProvider>
         </>
       )}
     />

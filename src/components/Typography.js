@@ -33,3 +33,10 @@ export const P = styled.p`
   font-size: ${props => props.theme.fontSize.body};
   line-height: 2.4;
 `;
+
+//link
+// export const StyledLink = P.withComponent(Link)`
+//    color: ${props => (props.white ? 'white' : props.theme.color.secondary)};
+//    text-decoration: none;
+
+// `;

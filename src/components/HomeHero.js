@@ -27,7 +27,7 @@ const HomeHero = () => (
       </HeroContentGroup>
     </ContentContainer>
 
-    <DownArrow>
+    <DownArrow href="#work-showcase">
       <img src={arrowDownBounded} width="40" alt="arrow-down-bounded" />
     </DownArrow>
   </HeroWrapper>

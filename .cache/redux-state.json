@@ -890,12 +890,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-03T15:32:32.297Z",
+      "buildTime": "2018-10-03T23:49:41.920Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "00d56765b9059afe049e2911f784c396",
+        "contentDigest": "a161247508f56da3d96f4ab29a83111e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
