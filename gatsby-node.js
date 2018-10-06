@@ -17,10 +17,10 @@ exports.createPages = ({ graphql, actions }) => {
     `).then(result => {
       result.data.allPrismicPortfolioProjects.edges.forEach(({ node }) => {
         createPage({
-          path: node.uid,
+          path: `/${node.uid}/`,
           component: path.resolve('./src/templates/project-post.js'),
           context: {
-            slug: node.uid
+            uid: node.uid
           }
         });
       });

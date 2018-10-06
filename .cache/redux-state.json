@@ -1083,7 +1083,7 @@
       "resolve": "/Users/aaloktrivedi/aalok-portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "7f027e54c4ee4c4f6d3ea61b76f02f96",
+      "version": "169b52acf34b7ef85ffe681362327817",
       "pluginOptions": {
         "plugins": []
       },
@@ -1196,7 +1196,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fb5ba93d3eb9f83b9a0ea374e723288f",
+        "contentDigest": "f3fc08b78dc76c22fafa0eb70151bf2e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1304,12 +1304,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-04T19:48:14.766Z",
+      "buildTime": "2018-10-06T04:09:17.406Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8d62333ce272bec74aad099b6d6b401b",
+        "contentDigest": "cef36b8a752bffcf3976c9bb0d02164b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1319,7 +1319,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2e53e394f478851bb914658578474a91",
+        "contentDigest": "047de3d343a546929e7bffcfe71636c7",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1331,7 +1331,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-10-03T02:56:38.551Z",
-      "accessTime": "2018-10-04T19:48:19.500Z",
+      "accessTime": "2018-10-06T04:09:20.296Z",
       "changeTime": "2018-10-03T02:56:38.551Z",
       "birthTime": "2018-09-27T20:50:32.409Z",
       "root": "/",
@@ -1349,59 +1349,14 @@
       "blksize": 4096,
       "ino": 8645546826,
       "blocks": 0,
-      "atimeMs": 1538682499499.6357,
+      "atimeMs": 1538798960296.3674,
       "mtimeMs": 1538535398551.0933,
       "ctimeMs": 1538535398551.0933,
       "birthtimeMs": 1538081432409.3232,
-      "atime": "2018-10-04T19:48:19.500Z",
+      "atime": "2018-10-06T04:09:20.296Z",
       "mtime": "2018-10-03T02:56:38.551Z",
       "ctime": "2018-10-03T02:56:38.551Z",
       "birthtime": "2018-09-27T20:50:32.409Z"
-    },
-    "008821bb-326a-5cf9-ac20-017957f52be8": {
-      "id": "008821bb-326a-5cf9-ac20-017957f52be8",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "989472ca8ae9303c9827606566e30c63",
-        "type": "File",
-        "mediaType": "application/javascript",
-        "description": "File \"src/pages/experience.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/experience.js",
-      "relativePath": "experience.js",
-      "extension": "js",
-      "size": 300,
-      "prettySize": "300 B",
-      "modifiedTime": "2018-10-03T02:56:38.549Z",
-      "accessTime": "2018-10-04T19:21:01.160Z",
-      "changeTime": "2018-10-03T02:56:38.549Z",
-      "birthTime": "2018-10-03T02:56:38.549Z",
-      "root": "/",
-      "dir": "/Users/aaloktrivedi/aalok-portfolio/src/pages",
-      "base": "experience.js",
-      "ext": ".js",
-      "name": "experience",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8650629168,
-      "blocks": 8,
-      "atimeMs": 1538680861159.8506,
-      "mtimeMs": 1538535398548.6692,
-      "ctimeMs": 1538535398548.6692,
-      "birthtimeMs": 1538535398548.616,
-      "atime": "2018-10-04T19:21:01.160Z",
-      "mtime": "2018-10-03T02:56:38.549Z",
-      "ctime": "2018-10-03T02:56:38.549Z",
-      "birthtime": "2018-10-03T02:56:38.549Z"
     },
     "fa69eb96-6550-5f92-a166-369bdbc1c5ab": {
       "id": "fa69eb96-6550-5f92-a166-369bdbc1c5ab",
@@ -1421,7 +1376,7 @@
       "size": 246,
       "prettySize": "246 B",
       "modifiedTime": "2018-09-27T20:50:32.409Z",
-      "accessTime": "2018-10-04T19:21:01.160Z",
+      "accessTime": "2018-10-06T04:08:40.015Z",
       "changeTime": "2018-09-29T15:44:33.082Z",
       "birthTime": "2018-09-27T20:50:32.409Z",
       "root": "/",
@@ -1439,11 +1394,11 @@
       "blksize": 4096,
       "ino": 8645546828,
       "blocks": 8,
-      "atimeMs": 1538680861159.8403,
+      "atimeMs": 1538798920015.1318,
       "mtimeMs": 1538081432409.494,
       "ctimeMs": 1538235873081.6328,
       "birthtimeMs": 1538081432409.379,
-      "atime": "2018-10-04T19:21:01.160Z",
+      "atime": "2018-10-06T04:08:40.015Z",
       "mtime": "2018-09-27T20:50:32.409Z",
       "ctime": "2018-09-29T15:44:33.082Z",
       "birthtime": "2018-09-27T20:50:32.409Z"
@@ -1466,7 +1421,7 @@
       "size": 287,
       "prettySize": "287 B",
       "modifiedTime": "2018-10-03T02:56:38.548Z",
-      "accessTime": "2018-10-04T19:21:01.160Z",
+      "accessTime": "2018-10-06T04:08:40.015Z",
       "changeTime": "2018-10-03T02:56:38.548Z",
       "birthTime": "2018-10-03T02:56:38.548Z",
       "root": "/",
@@ -1484,14 +1439,59 @@
       "blksize": 4096,
       "ino": 8650629167,
       "blocks": 8,
-      "atimeMs": 1538680861159.847,
+      "atimeMs": 1538798920015.137,
       "mtimeMs": 1538535398548.019,
       "ctimeMs": 1538535398548.019,
       "birthtimeMs": 1538535398547.9546,
-      "atime": "2018-10-04T19:21:01.160Z",
+      "atime": "2018-10-06T04:08:40.015Z",
       "mtime": "2018-10-03T02:56:38.548Z",
       "ctime": "2018-10-03T02:56:38.548Z",
       "birthtime": "2018-10-03T02:56:38.548Z"
+    },
+    "008821bb-326a-5cf9-ac20-017957f52be8": {
+      "id": "008821bb-326a-5cf9-ac20-017957f52be8",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "989472ca8ae9303c9827606566e30c63",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/experience.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/aaloktrivedi/aalok-portfolio/src/pages/experience.js",
+      "relativePath": "experience.js",
+      "extension": "js",
+      "size": 300,
+      "prettySize": "300 B",
+      "modifiedTime": "2018-10-03T02:56:38.549Z",
+      "accessTime": "2018-10-06T04:08:40.015Z",
+      "changeTime": "2018-10-03T02:56:38.549Z",
+      "birthTime": "2018-10-03T02:56:38.549Z",
+      "root": "/",
+      "dir": "/Users/aaloktrivedi/aalok-portfolio/src/pages",
+      "base": "experience.js",
+      "ext": ".js",
+      "name": "experience",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8650629168,
+      "blocks": 8,
+      "atimeMs": 1538798920015.1433,
+      "mtimeMs": 1538535398548.6692,
+      "ctimeMs": 1538535398548.6692,
+      "birthtimeMs": 1538535398548.616,
+      "atime": "2018-10-06T04:08:40.015Z",
+      "mtime": "2018-10-03T02:56:38.549Z",
+      "ctime": "2018-10-03T02:56:38.549Z",
+      "birthtime": "2018-10-03T02:56:38.549Z"
     },
     "1ee82800-adc5-5818-91ef-3c6192131dd5": {
       "id": "1ee82800-adc5-5818-91ef-3c6192131dd5",
@@ -1511,7 +1511,7 @@
       "size": 706,
       "prettySize": "706 B",
       "modifiedTime": "2018-10-04T19:18:21.442Z",
-      "accessTime": "2018-10-04T19:47:41.472Z",
+      "accessTime": "2018-10-06T04:08:40.015Z",
       "changeTime": "2018-10-04T19:18:21.442Z",
       "birthTime": "2018-10-03T02:56:38.550Z",
       "root": "/",
@@ -1529,11 +1529,11 @@
       "blksize": 4096,
       "ino": 8650629169,
       "blocks": 8,
-      "atimeMs": 1538682461472.328,
+      "atimeMs": 1538798920015.148,
       "mtimeMs": 1538680701442.3855,
       "ctimeMs": 1538680701442.3855,
       "birthtimeMs": 1538535398550.3313,
-      "atime": "2018-10-04T19:47:41.472Z",
+      "atime": "2018-10-06T04:08:40.015Z",
       "mtime": "2018-10-04T19:18:21.442Z",
       "ctime": "2018-10-04T19:18:21.442Z",
       "birthtime": "2018-10-03T02:56:38.550Z"
@@ -1556,7 +1556,7 @@
       "size": 275,
       "prettySize": "275 B",
       "modifiedTime": "2018-10-03T02:56:38.551Z",
-      "accessTime": "2018-10-04T19:21:01.160Z",
+      "accessTime": "2018-10-06T04:08:40.015Z",
       "changeTime": "2018-10-03T02:56:38.551Z",
       "birthTime": "2018-10-03T02:56:38.551Z",
       "root": "/",
@@ -1574,11 +1574,11 @@
       "blksize": 4096,
       "ino": 8650629170,
       "blocks": 8,
-      "atimeMs": 1538680861159.8596,
+      "atimeMs": 1538798920015.153,
       "mtimeMs": 1538535398551.177,
       "ctimeMs": 1538535398551.177,
       "birthtimeMs": 1538535398551.0781,
-      "atime": "2018-10-04T19:21:01.160Z",
+      "atime": "2018-10-06T04:08:40.015Z",
       "mtime": "2018-10-03T02:56:38.551Z",
       "ctime": "2018-10-03T02:56:38.551Z",
       "birthtime": "2018-10-03T02:56:38.551Z"
@@ -1602,10 +1602,10 @@
       "extension": "png",
       "size": 941465,
       "prettySize": "941 kB",
-      "modifiedTime": "2018-10-04T19:48:20.865Z",
-      "accessTime": "2018-10-04T19:48:20.201Z",
-      "changeTime": "2018-10-04T19:48:20.867Z",
-      "birthTime": "2018-10-04T19:48:20.201Z",
+      "modifiedTime": "2018-10-06T04:09:22.291Z",
+      "accessTime": "2018-10-06T04:09:21.195Z",
+      "changeTime": "2018-10-06T04:09:22.293Z",
+      "birthTime": "2018-10-06T04:09:21.195Z",
       "root": "/",
       "dir": "/Users/aaloktrivedi/aalok-portfolio/.cache/gatsby-source-filesystem",
       "base": "ec9102054cedaa4e133413799feb0c6a.png",
@@ -1619,16 +1619,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 8650810783,
-      "blocks": 1840,
-      "atimeMs": 1538682500200.7502,
-      "mtimeMs": 1538682500865.4983,
-      "ctimeMs": 1538682500867.3318,
-      "birthtimeMs": 1538682500200.7502,
-      "atime": "2018-10-04T19:48:20.201Z",
-      "mtime": "2018-10-04T19:48:20.865Z",
-      "ctime": "2018-10-04T19:48:20.867Z",
-      "birthtime": "2018-10-04T19:48:20.201Z"
+      "ino": 8650830209,
+      "blocks": 1952,
+      "atimeMs": 1538798961194.8176,
+      "mtimeMs": 1538798962290.9514,
+      "ctimeMs": 1538798962292.5933,
+      "birthtimeMs": 1538798961194.8176,
+      "atime": "2018-10-06T04:09:21.195Z",
+      "mtime": "2018-10-06T04:09:22.291Z",
+      "ctime": "2018-10-06T04:09:22.293Z",
+      "birthtime": "2018-10-06T04:09:21.195Z"
     },
     "b95a58ef-45bc-5a6e-aaf4-7ad335afdee3": {
       "id": "b95a58ef-45bc-5a6e-aaf4-7ad335afdee3",
@@ -1917,90 +1917,90 @@
       },
       "dataString": "{\"project_title\":[{\"type\":\"heading1\",\"text\":\"Strypes\",\"spans\":[]}],\"services\":[{\"type\":\"paragraph\",\"text\":\"UI/UX & Interaction Design\",\"spans\":[]}],\"featured_image\":{\"dimensions\":{\"width\":1659,\"height\":1180},\"alt\":null,\"copyright\":null,\"url\":\"https://aaloktrivedi.cdn.prismic.io/aaloktrivedi/18c2154bb1d0df41c2635ca21df33c144b60bffe_hinge_cover.png\"},\"project_content\":[{\"type\":\"paragraph\",\"text\":\"Hello this is content for Strypes\",\"spans\":[]}]}"
     },
-    "SitePage /project-4": {
-      "jsonName": "project-4-d90",
+    "SitePage /project-4/": {
+      "jsonName": "project-4-348",
       "internalComponentName": "ComponentProject4",
-      "path": "/project-4",
+      "path": "/project-4/",
       "component": "/Users/aaloktrivedi/aalok-portfolio/src/templates/project-post.js",
       "componentChunkName": "component---src-templates-project-post-js",
       "context": {
-        "slug": "project-4"
+        "uid": "project-4"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/aaloktrivedi/aalok-portfolio/src/templates/project-post.js",
-      "id": "SitePage /project-4",
+      "id": "SitePage /project-4/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "12f54eef60f532c1377149f0dc2268a8",
+        "contentDigest": "84034952e029ec78041e4898f81a3492",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /hinge": {
-      "jsonName": "hinge-2e1",
+    "SitePage /hinge/": {
+      "jsonName": "hinge-078",
       "internalComponentName": "ComponentHinge",
-      "path": "/hinge",
+      "path": "/hinge/",
       "component": "/Users/aaloktrivedi/aalok-portfolio/src/templates/project-post.js",
       "componentChunkName": "component---src-templates-project-post-js",
       "context": {
-        "slug": "hinge"
+        "uid": "hinge"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/aaloktrivedi/aalok-portfolio/src/templates/project-post.js",
-      "id": "SitePage /hinge",
+      "id": "SitePage /hinge/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6d0ee266f12f27e678bd17f44465e4e2",
+        "contentDigest": "d7368932047072492b4cb74e6738d811",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /market-aces": {
-      "jsonName": "market-aces-8ea",
+    "SitePage /market-aces/": {
+      "jsonName": "market-aces-5ea",
       "internalComponentName": "ComponentMarketAces",
-      "path": "/market-aces",
+      "path": "/market-aces/",
       "component": "/Users/aaloktrivedi/aalok-portfolio/src/templates/project-post.js",
       "componentChunkName": "component---src-templates-project-post-js",
       "context": {
-        "slug": "market-aces"
+        "uid": "market-aces"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/aaloktrivedi/aalok-portfolio/src/templates/project-post.js",
-      "id": "SitePage /market-aces",
+      "id": "SitePage /market-aces/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6b7dad0aa2ce0b9ed3dc5df42a1fa229",
+        "contentDigest": "fe20650f8fa800f81c4804ef9db3f83d",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /strypes": {
-      "jsonName": "strypes-170",
+    "SitePage /strypes/": {
+      "jsonName": "strypes-189",
       "internalComponentName": "ComponentStrypes",
-      "path": "/strypes",
+      "path": "/strypes/",
       "component": "/Users/aaloktrivedi/aalok-portfolio/src/templates/project-post.js",
       "componentChunkName": "component---src-templates-project-post-js",
       "context": {
-        "slug": "strypes"
+        "uid": "strypes"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/aaloktrivedi/aalok-portfolio/src/templates/project-post.js",
-      "id": "SitePage /strypes",
+      "id": "SitePage /strypes/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a62c5ee4bb0c8632a9848e8f88e96bcb",
+        "contentDigest": "3370aef88e3162ab33521e768692f9f0",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2128,12 +2128,24 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "aa363c8681332e5c26f27640b35fd0dc"
+    "PLUGINS_HASH": "1edf48cbb9913624aaac8b60a08c7893"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
+      ],
+      "Prismic__PortfolioProjects__W7ZrHBQAACwAd9O5": [
+        "/project-4/"
+      ],
+      "Prismic__PortfolioProjects__W7JzJRAAACoAQKGN": [
+        "/hinge/"
+      ],
+      "Prismic__PortfolioProjects__W7ZqtxQAAC0Ad9H0": [
+        "/market-aces/"
+      ],
+      "Prismic__PortfolioProjects__W7JzNRAAACoAQKHW": [
+        "/strypes/"
       ]
     },
     "connections": {
@@ -2143,23 +2155,22 @@
     }
   },
   "jsonDataPaths": {
-    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 2994927498,
-    "experience-6a7": "563/path---experience-6-a-7-ce2-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "581/path---index-6a9-PiEgXKiyQ8SQnLg71iL901YFBM",
-    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "work-fa6": "469/path---work-fa-6-fb4-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 2994927498,
+    "hinge-078": "771/path---hinge-078-816-5CMKqLn8ZinbZDCC26hb88gxOj4",
+    "project-4-348": "497/path---project-4-348-da0-TbSsR5ttDc0K0RDM88BMIxgME",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "market-aces-5ea": "540/path---market-aces-5-ea-833-1PT36qI05CTcQXNFp18FXPdEMpc",
+    "strypes-189": "464/path---strypes-189-951-euo3aIftz2mA6nssnSrvApAaho",
+    "experience-6a7": "563/path---experience-6-a-7-ce2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "hinge-2e1": "20/path---hinge-2-e-1-03c-ifnBt1KnMpFBruvA4bDUhVa9GUQ",
-    "project-4-d90": "474/path---project-4-d-90-4cb-75cIIfYCMzc4dLBvZhyZpsuQnYM",
-    "market-aces-8ea": "776/path---market-aces-8-ea-4a4-MqEqtV2MyexSDclcP51PQ8FJdE",
-    "strypes-170": "381/path---strypes-170-c23-ny0fqjtw9WoB8H5wC8A9xOXOw"
+    "work-fa6": "469/path---work-fa-6-fb4-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/aaloktrivedi/aalok-portfolio/src/templates/project-post.js": {
-      "query": "",
+      "query": "query usersAaloktrivediAalokPortfolioSrcTemplatesProjectPostJs558013205(\n  $uid: String!\n) {\n  prismicPortfolioProjects(uid: {eq: $uid}) {\n    id\n    uid\n    data {\n      project_title {\n        text\n        html\n      }\n      services {\n        html\n      }\n      project_content {\n        html\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/aaloktrivedi/aalok-portfolio/src/templates/project-post.js"
     },
     "/Users/aaloktrivedi/aalok-portfolio/.cache/dev-404-page.js": {
