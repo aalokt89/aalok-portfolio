@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import 'reset-css';
+import { modernNormalize } from 'styled-modern-normalize';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import NavPanel from './nav/navPanel';
@@ -14,7 +14,10 @@ import theme from '../styles/theme';
 //   }
 // `;
 injectGlobal`
+  ${modernNormalize}
+  
   @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Montserrat:400,700');
+
   html{
     font-size: 62.5% !important;
   }

@@ -38,7 +38,7 @@ const HeroWrapper = styled.section`
   display: grid;
   background: ${props => props.theme.color.cream};
   padding: ${props => props.theme.spacing.lg};
-  height: calc(100vh - 12.8rem);
+  height: 100vh;
 `;
 
 const ContentContainer = styled.div`
