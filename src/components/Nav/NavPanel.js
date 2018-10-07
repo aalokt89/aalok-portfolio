@@ -7,6 +7,7 @@ import workIcon from '../../images/icons/work-icon.svg';
 import experienceIcon from '../../images/icons/experience-icon.svg';
 import contactIcon from '../../images/icons/contact-icon.svg';
 import styled from 'styled-components';
+import { media } from '../../styles/theme';
 
 const NavPanel = props => {
   const menu = [
@@ -62,6 +63,13 @@ const NavWrapper = styled.header`
   justify-items: center;
   align-items: flex-start;
   padding: ${props => props.theme.spacing.med} 0;
+
+  ${media.tablet`
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  `};
 `;
 
 const Logo = styled(Link)`
@@ -69,6 +77,10 @@ const Logo = styled(Link)`
   justify-content: center;
   align-items: center;
   margin-bottom: ${props => props.theme.spacing.lg};
+
+  ${media.tablet`
+    display: none;
+  `};
 `;
 
 const NavList = styled.ul`
@@ -78,6 +90,11 @@ const NavList = styled.ul`
   flex-grow: 1;
   text-align: center;
   padding: 0;
+
+  ${media.tablet`
+    flex-direction: row;
+    margin: 0;
+  `};
 `;
 
 export default NavPanel;

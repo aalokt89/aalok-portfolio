@@ -51,8 +51,7 @@ const NavItemWrapper = styled.li`
       transition: 300ms;
 
       img {
-        width: 2.4rem;
-        height: 2.4rem;
+        width: 52%;
       }
     }
   }
