@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 
 const ProjectPostTemplate = ({ data }) => {
-  const project = data.PrismicPortfolioProjects.data;
+  const project = data.prismicPortfolioProjects.data;
   return (
     <Layout>
       <Helmet title={`Aalok Trivedi: ${project.project_title.text}`} />

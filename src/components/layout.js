@@ -6,7 +6,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import NavPanel from './nav/navPanel';
 import Footer from './footer';
 import styled, { injectGlobal, ThemeProvider } from 'styled-components';
-import theme from '../styles/theme';
+import theme, { media } from '../styles/theme';
 
 // const GlobalStyle = createGlobalStyle`
 //   body{
@@ -56,6 +56,11 @@ injectGlobal`
 
 const ContentWrapper = styled.main`
   margin-left: ${props => props.theme.layout.navPanelWidthDesktop};
+
+  ${media.tablet`
+    margin-left: 0;
+    
+  `};
 `;
 
 const Layout = ({ children }) => {

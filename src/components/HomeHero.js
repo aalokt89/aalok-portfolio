@@ -3,6 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import myPic from '../images/aalok-trivedi-pic@2x.png';
 import arrowDownBounded from '../images//icons/arrow-down-bounded.svg';
 import styled from 'styled-components';
+import { media } from '../styles/theme';
 import { H1 } from './typography';
 
 const HomeHero = () => (
@@ -39,6 +40,11 @@ const HeroWrapper = styled.section`
   background: ${props => props.theme.color.cream};
   padding: ${props => props.theme.spacing.lg};
   height: 100vh;
+
+  ${media.tablet`
+    height: auto;
+    padding: ${props => props.theme.spacing.med};
+  `};
 `;
 
 const ContentContainer = styled.div`
@@ -52,6 +58,11 @@ const HeroContentGroup = styled.div`
   display: grid;
   grid-template-columns: 8.8rem 5fr;
   grid-gap: ${props => props.theme.spacing.reg};
+
+  ${media.tablet`
+    grid-template-columns: 1fr;
+   
+  `};
 `;
 
 const Avatar = styled.div`
