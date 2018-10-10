@@ -55,6 +55,12 @@ const theme = {
   //layout
   layout: {
     navPanelWidthDesktop: '13.2rem'
+  },
+
+  //motion
+  motion: {
+    baseTime: '250ms',
+    baseCurve: 'ease-in-out'
   }
 };
 

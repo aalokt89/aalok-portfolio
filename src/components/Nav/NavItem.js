@@ -3,16 +3,18 @@ import styled from 'styled-components';
 import { lighten } from 'polished';
 import { Link } from 'gatsby';
 
-const NavItem = props => (
-  <NavItemWrapper>
-    <Link to={props.to}>
-      <span>
-        <img src={props.icon} alt={`${props.label} Icon`} />
-      </span>
-      {props.label}
-    </Link>
-  </NavItemWrapper>
-);
+const NavItem = props => {
+  return (
+    <NavItemWrapper>
+      <Link to={props.to}>
+        <span>
+          <img src={props.icon} alt={`${props.label} Icon`} />
+        </span>
+        {props.label}
+      </Link>
+    </NavItemWrapper>
+  );
+};
 
 //styles
 const NavItemWrapper = styled.li`
@@ -38,6 +40,12 @@ const NavItemWrapper = styled.li`
     &:hover > span {
       background: ${props => lighten(0.2, props.theme.color.primary)};
       transform: scale(1.15);
+      border: 0.2rem solid ${props => props.theme.color.purple};
+    }
+    .active {
+      background: ${props => lighten(0.2, props.theme.color.primary)};
+      transform: scale(1.15);
+      border: 0.2rem solid ${props => props.theme.color.purple};
     }
     span {
       height: 4.4rem;

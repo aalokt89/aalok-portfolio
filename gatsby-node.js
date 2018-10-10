@@ -17,7 +17,7 @@ exports.createPages = ({ graphql, actions }) => {
     `).then(result => {
       result.data.allPrismicPortfolioProjects.edges.forEach(({ node }) => {
         createPage({
-          path: `/${node.uid}/`,
+          path: `/work/${node.uid}/`,
           component: path.resolve('./src/templates/project-post.js'),
           context: {
             uid: node.uid

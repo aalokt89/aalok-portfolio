@@ -30,28 +30,23 @@
         "path": "/experience/"
     },
     {
-        "componentChunkName": "component---src-templates-project-post-js",
-        "jsonName": "hinge-078",
-        "path": "/hinge/"
-    },
-    {
-        "componentChunkName": "component---src-templates-project-post-js",
-        "jsonName": "market-aces-5ea",
-        "path": "/market-aces/"
-    },
-    {
-        "componentChunkName": "component---src-templates-project-post-js",
-        "jsonName": "project-4-348",
-        "path": "/project-4/"
-    },
-    {
-        "componentChunkName": "component---src-templates-project-post-js",
-        "jsonName": "strypes-189",
-        "path": "/strypes/"
-    },
-    {
         "componentChunkName": "component---src-pages-work-js",
         "jsonName": "work-fa6",
         "path": "/work/"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-post-js",
+        "jsonName": "work-hinge-afd",
+        "path": "/work/hinge/"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-post-js",
+        "jsonName": "work-market-aces-8a0",
+        "path": "/work/market-aces/"
+    },
+    {
+        "componentChunkName": "component---src-templates-project-post-js",
+        "jsonName": "work-strypes-962",
+        "path": "/work/strypes/"
     }
 ]

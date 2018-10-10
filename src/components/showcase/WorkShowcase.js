@@ -2,7 +2,7 @@ import React from 'react';
 import PropType from 'prop-types';
 import workIcon from '../../images//icons/work-icon.svg';
 import Button from '../buttons';
-import ShowcaseProject from './showcaseProject';
+import ShowcaseProject2 from './showcaseProject2';
 import styled from 'styled-components';
 import { H1 } from '../typography';
 
@@ -17,10 +17,14 @@ const WorkShowcase = props => (
 
     <RecentProjectsWrapper>
       {props.data.allPrismicPortfolioProjects.edges.map(project => (
-        <ShowcaseProject
+        <ShowcaseProject2
           key={project.node.id}
           projectTitle={project.node.data.project_title.text}
           services={project.node.data.services.text}
+          path={`/work/${project.node.uid}/`}
+          featuredImage={project.node.data.featured_image.url}
+          primaryColor={project.node.data.brand_primary_color}
+          secondaryColor={project.node.data.brand_secondary_color}
         />
       ))}
     </RecentProjectsWrapper>
@@ -36,7 +40,6 @@ const ShowcaseWrapper = styled.section`
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 'intro work';
   grid-gap: 0;
-  text-align: center;
 `;
 
 const ShowcaseIntro = styled.div`

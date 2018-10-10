@@ -17,6 +17,7 @@ export const PrismicProjectQuery = graphql`
       edges {
         node {
           id
+          uid
           data {
             project_title {
               text
@@ -24,6 +25,11 @@ export const PrismicProjectQuery = graphql`
             services {
               text
             }
+            featured_image {
+              url
+            }
+            brand_primary_color
+            brand_secondary_color
           }
         }
       }
