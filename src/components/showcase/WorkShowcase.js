@@ -1,35 +1,39 @@
 import React from 'react';
 import PropType from 'prop-types';
-import workIcon from '../../images//icons/work-icon.svg';
 import Button from '../buttons';
-import ShowcaseProject2 from './showcaseProject2';
+import ShowcaseProject3 from './showcaseProject3';
 import styled from 'styled-components';
 import { H1 } from '../typography';
+import Icon from '../icon';
 
-const WorkShowcase = props => (
-  <ShowcaseWrapper id="work-showcase">
-    <ShowcaseIntro>
-      <img src={workIcon} alt="work-icon" />
-      <H1>{props.sectionTitle}</H1>
-      <div className="work-illustration" />
-      <Button type="secondary" to="/work" label="See More" />
-    </ShowcaseIntro>
+class WorkShowcase extends React.Component {
+  render() {
+    return (
+      <ShowcaseWrapper id="work-showcase">
+        <ShowcaseIntro>
+          <Icon icon="home" width="64" height="64" />
+          <H1>{this.props.sectionTitle}</H1>
+          <div className="work-illustration" />
+          <Button type="secondary" to="/work" label="See More" />
+        </ShowcaseIntro>
 
-    <RecentProjectsWrapper>
-      {props.data.allPrismicPortfolioProjects.edges.map(project => (
-        <ShowcaseProject2
-          key={project.node.id}
-          projectTitle={project.node.data.project_title.text}
-          services={project.node.data.services.text}
-          path={`/work/${project.node.uid}/`}
-          featuredImage={project.node.data.featured_image.url}
-          primaryColor={project.node.data.brand_primary_color}
-          secondaryColor={project.node.data.brand_secondary_color}
-        />
-      ))}
-    </RecentProjectsWrapper>
-  </ShowcaseWrapper>
-);
+        <RecentProjectsWrapper>
+          {this.props.data.allPrismicPortfolioProjects.edges.map(project => (
+            <ShowcaseProject3
+              key={project.node.id}
+              projectTitle={project.node.data.project_title.text}
+              services={project.node.data.services.text}
+              path={`/work/${project.node.uid}/`}
+              featuredImage={project.node.data.featured_image.url}
+              primaryColor={project.node.data.brand_primary_color}
+              secondaryColor={project.node.data.brand_secondary_color}
+            />
+          ))}
+        </RecentProjectsWrapper>
+      </ShowcaseWrapper>
+    );
+  }
+}
 
 //styles
 
