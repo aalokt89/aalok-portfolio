@@ -4,14 +4,14 @@ import Button from '../buttons';
 import ShowcaseProject3 from './showcaseProject3';
 import styled from 'styled-components';
 import { H1 } from '../typography';
-import Icon from '../icon';
+import Icon from '../icons';
 
 class WorkShowcase extends React.Component {
   render() {
     return (
       <ShowcaseWrapper id="work-showcase">
         <ShowcaseIntro>
-          <Icon icon="home" width="64" height="64" />
+          <Icon name="work" width={64} />
           <H1>{this.props.sectionTitle}</H1>
           <div className="work-illustration" />
           <Button type="secondary" to="/work" label="See More" />

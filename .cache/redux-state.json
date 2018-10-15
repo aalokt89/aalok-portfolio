@@ -1308,16 +1308,16 @@
       "siteMetadata": {
         "title": "Aalok Trivedi: UI/UX Designer"
       },
-      "port": "8000",
+      "port": 8001,
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-12T20:34:25.229Z",
+      "buildTime": "2018-10-15T15:53:43.581Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3372d66278210de9aaa92f793aee1665",
+        "contentDigest": "ed11764a6524b6a9158c14081692e71b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1327,7 +1327,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6e2885c16f38718ac1c9a528c56577f7",
+        "contentDigest": "d6a339a4395359e6e79548a622735f0f",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1339,7 +1339,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-10-03T02:56:38.551Z",
-      "accessTime": "2018-10-12T20:34:30.339Z",
+      "accessTime": "2018-10-15T15:53:51.991Z",
       "changeTime": "2018-10-03T02:56:38.551Z",
       "birthTime": "2018-09-27T20:50:32.409Z",
       "root": "/",
@@ -1357,11 +1357,11 @@
       "blksize": 4096,
       "ino": 8645546826,
       "blocks": 0,
-      "atimeMs": 1539376470339.1235,
+      "atimeMs": 1539618831990.7483,
       "mtimeMs": 1538535398551.0933,
       "ctimeMs": 1538535398551.0933,
       "birthtimeMs": 1538081432409.3232,
-      "atime": "2018-10-12T20:34:30.339Z",
+      "atime": "2018-10-15T15:53:51.991Z",
       "mtime": "2018-10-03T02:56:38.551Z",
       "ctime": "2018-10-03T02:56:38.551Z",
       "birthtime": "2018-09-27T20:50:32.409Z"

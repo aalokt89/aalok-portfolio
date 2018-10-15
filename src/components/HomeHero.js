@@ -1,12 +1,12 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import myPic from '../images/aalok-trivedi-pic@2x.png';
-import arrowDownBounded from '../images//icons/arrow-down-bounded.svg';
-import styled from 'styled-components';
+import styled, { withTheme } from 'styled-components';
 import { media } from '../styles/theme';
 import { H1 } from './typography';
+import Icon from './icons';
 
-const HomeHero = () => (
+const HomeHero = props => (
   <HeroWrapper id="hero">
     <ContentContainer>
       <HeroContentGroup>
@@ -29,7 +29,11 @@ const HomeHero = () => (
     </ContentContainer>
 
     <DownArrow href="#work-showcase">
-      <img src={arrowDownBounded} width="40" alt="arrow-down-bounded" />
+      <Icon
+        name="arrow-down-bounded"
+        width={44}
+        color={props.theme.color.primary}
+      />
     </DownArrow>
   </HeroWrapper>
 );
@@ -89,4 +93,4 @@ const DownArrow = styled(AnchorLink)`
   justify-self: center;
   align-self: end;
 `;
-export default HomeHero;
+export default withTheme(HomeHero);

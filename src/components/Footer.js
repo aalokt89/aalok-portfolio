@@ -6,15 +6,18 @@ const Footer = props => {
   const footerLinks = [
     {
       name: 'Dribbble',
-      link: 'http://www.dribbble.com/aalok-trivedi'
+      link: 'http://www.dribbble.com/aalok-trivedi',
+      icon: 'dribbble'
     },
     {
       name: 'Pinterest',
-      link: 'http://www.pinterest.com/aalok89'
+      link: 'http://www.pinterest.com/aalok89',
+      icon: 'pinterest'
     },
     {
       name: 'Logopond',
-      link: 'http://www.logopond.com/aalok89'
+      link: 'http://www.logopond.com/aalok89',
+      icon: 'logopond'
     }
   ];
   return (

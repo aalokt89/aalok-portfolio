@@ -2,13 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import { lighten } from 'polished';
 import { Link } from 'gatsby';
+import Icon from '../icons';
 
 const NavItem = props => {
   return (
     <NavItemWrapper>
       <Link to={props.to}>
         <span>
-          <img src={props.icon} alt={`${props.label} Icon`} />
+          <Icon name={props.icon} width={24} viewBox="0 0 64 64" />
         </span>
         {props.label}
       </Link>
@@ -42,12 +43,11 @@ const NavItemWrapper = styled.li`
       transform: scale(1.15);
       border: 0.2rem solid ${props => props.theme.color.purple};
     }
-    .active {
+    ${'' /* .active {
       background: ${props => lighten(0.2, props.theme.color.primary)};
       transform: scale(1.15);
       border: 0.2rem solid ${props => props.theme.color.purple};
-    }
-    span {
+    } */} span {
       height: 4.4rem;
       width: 4.4rem;
       background: ${props => lighten(0.1, props.theme.color.primary)};
@@ -57,10 +57,6 @@ const NavItemWrapper = styled.li`
       align-items: center;
       margin-bottom: ${props => props.theme.spacing.sm};
       transition: 300ms;
-
-      img {
-        width: 52%;
-      }
     }
   }
 `;

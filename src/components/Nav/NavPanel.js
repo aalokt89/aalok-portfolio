@@ -1,41 +1,37 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import NavItem from './navItem';
-import logoDark from '../../images/aalok-logo-dark.svg';
-import homeIcon from '../../images/icons/home-icon.svg';
-import workIcon from '../../images/icons/work-icon.svg';
-import experienceIcon from '../../images/icons/experience-icon.svg';
-import contactIcon from '../../images/icons/contact-icon.svg';
-import styled from 'styled-components';
+import styled, { withTheme } from 'styled-components';
 import { media } from '../../styles/theme';
+import Icon from '../icons';
 
 const NavPanel = props => {
   const menu = [
     {
       label: 'Home',
       link: '/',
-      icon: homeIcon
+      icon: 'home'
     },
     {
       label: 'Work',
       link: '/work',
-      icon: workIcon
+      icon: 'work'
     },
     {
       label: 'Experience',
       link: '/experience',
-      icon: experienceIcon
+      icon: 'experience'
     },
     {
       label: 'Contact',
       link: '/contact',
-      icon: contactIcon
+      icon: 'contact'
     }
   ];
   return (
     <NavWrapper>
       <Logo to="/">
-        <img width="64" src={logoDark} alt="Aalok Trivedi" />
+        <Icon name="logo" width={72} />
       </Logo>
 
       <nav>
@@ -97,4 +93,4 @@ const NavList = styled.ul`
   `};
 `;
 
-export default NavPanel;
+export default withTheme(NavPanel);
